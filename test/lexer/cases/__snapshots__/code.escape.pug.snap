@@ -1,0 +1,163 @@
+[
+  {
+    "type": "tag",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.escape.pug",
+      "start": {
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "line": 1,
+        "column": 2
+      }
+    },
+    "val": "p",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "code",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.escape.pug",
+      "start": {
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "line": 1,
+        "column": 14
+      }
+    },
+    "val": "'<script>'",
+    "buffer": true,
+    "mustEscape": true,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "newline",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.escape.pug",
+      "start": {
+        "line": 2,
+        "column": 1
+      },
+      "end": {
+        "line": 2,
+        "column": 1
+      }
+    },
+    "val": null,
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "tag",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.escape.pug",
+      "start": {
+        "line": 2,
+        "column": 1
+      },
+      "end": {
+        "line": 2,
+        "column": 2
+      }
+    },
+    "val": "p",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "code",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.escape.pug",
+      "start": {
+        "line": 2,
+        "column": 2
+      },
+      "end": {
+        "line": 2,
+        "column": 15
+      }
+    },
+    "val": "'<script>'",
+    "buffer": true,
+    "mustEscape": false,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "outdent",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.escape.pug",
+      "start": {
+        "line": 2,
+        "column": 15
+      },
+      "end": {
+        "line": 2,
+        "column": 15
+      }
+    },
+    "val": null,
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "eos",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.escape.pug",
+      "start": {
+        "line": 2,
+        "column": 15
+      },
+      "end": {
+        "line": 2,
+        "column": 15
+      }
+    },
+    "val": null,
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  }
+]

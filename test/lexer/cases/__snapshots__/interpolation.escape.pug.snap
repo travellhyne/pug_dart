@@ -1,0 +1,255 @@
+[
+  {
+    "type": "newline",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/interpolation.escape.pug",
+      "start": {
+        "line": 2,
+        "column": 1
+      },
+      "end": {
+        "line": 2,
+        "column": 1
+      }
+    },
+    "val": null,
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "code",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/interpolation.escape.pug",
+      "start": {
+        "line": 2,
+        "column": 1
+      },
+      "end": {
+        "line": 2,
+        "column": 15
+      }
+    },
+    "val": "var id = 42;",
+    "buffer": false,
+    "mustEscape": false,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "newline",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/interpolation.escape.pug",
+      "start": {
+        "line": 3,
+        "column": 1
+      },
+      "end": {
+        "line": 3,
+        "column": 1
+      }
+    },
+    "val": null,
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "tag",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/interpolation.escape.pug",
+      "start": {
+        "line": 3,
+        "column": 1
+      },
+      "end": {
+        "line": 3,
+        "column": 4
+      }
+    },
+    "val": "foo",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "indent",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/interpolation.escape.pug",
+      "start": {
+        "line": 4,
+        "column": 1
+      },
+      "end": {
+        "line": 4,
+        "column": 3
+      }
+    },
+    "val": "2",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "newline",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/interpolation.escape.pug",
+      "start": {
+        "line": 5,
+        "column": 1
+      },
+      "end": {
+        "line": 5,
+        "column": 3
+      }
+    },
+    "val": null,
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "newline",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/interpolation.escape.pug",
+      "start": {
+        "line": 6,
+        "column": 1
+      },
+      "end": {
+        "line": 6,
+        "column": 3
+      }
+    },
+    "val": null,
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "newline",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/interpolation.escape.pug",
+      "start": {
+        "line": 7,
+        "column": 1
+      },
+      "end": {
+        "line": 7,
+        "column": 3
+      }
+    },
+    "val": null,
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "outdent",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/interpolation.escape.pug",
+      "start": {
+        "line": 7,
+        "column": 5
+      },
+      "end": {
+        "line": 7,
+        "column": 5
+      }
+    },
+    "val": null,
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "outdent",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/interpolation.escape.pug",
+      "start": {
+        "line": 7,
+        "column": 5
+      },
+      "end": {
+        "line": 7,
+        "column": 5
+      }
+    },
+    "val": null,
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "eos",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/interpolation.escape.pug",
+      "start": {
+        "line": 7,
+        "column": 5
+      },
+      "end": {
+        "line": 7,
+        "column": 5
+      }
+    },
+    "val": null,
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "type": "doctype",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/doctype.keyword.pug",
+      "start": {
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "line": 1,
+        "column": 13
+      }
+    },
+    "val": "html",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "outdent",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/doctype.keyword.pug",
+      "start": {
+        "line": 1,
+        "column": 13
+      },
+      "end": {
+        "line": 1,
+        "column": 13
+      }
+    },
+    "val": null,
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "eos",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/doctype.keyword.pug",
+      "start": {
+        "line": 1,
+        "column": 13
+      },
+      "end": {
+        "line": 1,
+        "column": 13
+      }
+    },
+    "val": null,
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  }
+]

@@ -1,0 +1,1750 @@
+[
+  {
+    "type": "newline",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 2,
+        "column": 1
+      },
+      "end": {
+        "line": 2,
+        "column": 1
+      }
+    },
+    "val": null,
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "code",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 2,
+        "column": 1
+      },
+      "end": {
+        "line": 2,
+        "column": 12
+      }
+    },
+    "val": "if (true)",
+    "buffer": false,
+    "mustEscape": false,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "indent",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 3,
+        "column": 1
+      },
+      "end": {
+        "line": 3,
+        "column": 3
+      }
+    },
+    "val": "2",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "tag",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 3,
+        "column": 3
+      },
+      "end": {
+        "line": 3,
+        "column": 4
+      }
+    },
+    "val": "p",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "outdent",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 4,
+        "column": 1
+      },
+      "end": {
+        "line": 4,
+        "column": 1
+      }
+    },
+    "val": null,
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "code",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 4,
+        "column": 1
+      },
+      "end": {
+        "line": 4,
+        "column": 7
+      }
+    },
+    "val": "else",
+    "buffer": false,
+    "mustEscape": false,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "indent",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 5,
+        "column": 1
+      },
+      "end": {
+        "line": 5,
+        "column": 3
+      }
+    },
+    "val": "2",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "tag",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 5,
+        "column": 3
+      },
+      "end": {
+        "line": 5,
+        "column": 4
+      }
+    },
+    "val": "p",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "outdent",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 7,
+        "column": 1
+      },
+      "end": {
+        "line": 7,
+        "column": 1
+      }
+    },
+    "val": null,
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "code",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 7,
+        "column": 1
+      },
+      "end": {
+        "line": 7,
+        "column": 14
+      }
+    },
+    "val": "if (true) {",
+    "buffer": false,
+    "mustEscape": false,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "indent",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 8,
+        "column": 1
+      },
+      "end": {
+        "line": 8,
+        "column": 3
+      }
+    },
+    "val": "2",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "tag",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 8,
+        "column": 3
+      },
+      "end": {
+        "line": 8,
+        "column": 4
+      }
+    },
+    "val": "p",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "outdent",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 9,
+        "column": 1
+      },
+      "end": {
+        "line": 9,
+        "column": 1
+      }
+    },
+    "val": null,
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "code",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 9,
+        "column": 1
+      },
+      "end": {
+        "line": 9,
+        "column": 11
+      }
+    },
+    "val": "} else {",
+    "buffer": false,
+    "mustEscape": false,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "indent",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 10,
+        "column": 1
+      },
+      "end": {
+        "line": 10,
+        "column": 3
+      }
+    },
+    "val": "2",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "tag",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 10,
+        "column": 3
+      },
+      "end": {
+        "line": 10,
+        "column": 4
+      }
+    },
+    "val": "p",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "outdent",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 11,
+        "column": 1
+      },
+      "end": {
+        "line": 11,
+        "column": 1
+      }
+    },
+    "val": null,
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "code",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 11,
+        "column": 1
+      },
+      "end": {
+        "line": 11,
+        "column": 4
+      }
+    },
+    "val": "}",
+    "buffer": false,
+    "mustEscape": false,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "newline",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 13,
+        "column": 1
+      },
+      "end": {
+        "line": 13,
+        "column": 1
+      }
+    },
+    "val": null,
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "if",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 13,
+        "column": 1
+      },
+      "end": {
+        "line": 13,
+        "column": 8
+      }
+    },
+    "val": "true",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "indent",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 14,
+        "column": 1
+      },
+      "end": {
+        "line": 14,
+        "column": 3
+      }
+    },
+    "val": "2",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "tag",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 14,
+        "column": 3
+      },
+      "end": {
+        "line": 14,
+        "column": 4
+      }
+    },
+    "val": "p",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "newline",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 15,
+        "column": 1
+      },
+      "end": {
+        "line": 15,
+        "column": 3
+      }
+    },
+    "val": null,
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "tag",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 15,
+        "column": 3
+      },
+      "end": {
+        "line": 15,
+        "column": 4
+      }
+    },
+    "val": "p",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "newline",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 16,
+        "column": 1
+      },
+      "end": {
+        "line": 16,
+        "column": 3
+      }
+    },
+    "val": null,
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "tag",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 16,
+        "column": 3
+      },
+      "end": {
+        "line": 16,
+        "column": 4
+      }
+    },
+    "val": "p",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "outdent",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 17,
+        "column": 1
+      },
+      "end": {
+        "line": 17,
+        "column": 1
+      }
+    },
+    "val": null,
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "else",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 17,
+        "column": 1
+      },
+      "end": {
+        "line": 17,
+        "column": 5
+      }
+    },
+    "val": "",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "indent",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 18,
+        "column": 1
+      },
+      "end": {
+        "line": 18,
+        "column": 3
+      }
+    },
+    "val": "2",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "tag",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 18,
+        "column": 3
+      },
+      "end": {
+        "line": 18,
+        "column": 4
+      }
+    },
+    "val": "p",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "outdent",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 20,
+        "column": 1
+      },
+      "end": {
+        "line": 20,
+        "column": 1
+      }
+    },
+    "val": null,
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "if",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 20,
+        "column": 1
+      },
+      "end": {
+        "line": 20,
+        "column": 12
+      }
+    },
+    "val": "!(true)",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "indent",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 21,
+        "column": 1
+      },
+      "end": {
+        "line": 21,
+        "column": 3
+      }
+    },
+    "val": "2",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "tag",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 21,
+        "column": 3
+      },
+      "end": {
+        "line": 21,
+        "column": 4
+      }
+    },
+    "val": "p",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "outdent",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 22,
+        "column": 1
+      },
+      "end": {
+        "line": 22,
+        "column": 1
+      }
+    },
+    "val": null,
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "else",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 22,
+        "column": 1
+      },
+      "end": {
+        "line": 22,
+        "column": 5
+      }
+    },
+    "val": "",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "indent",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 23,
+        "column": 1
+      },
+      "end": {
+        "line": 23,
+        "column": 3
+      }
+    },
+    "val": "2",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "tag",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 23,
+        "column": 3
+      },
+      "end": {
+        "line": 23,
+        "column": 4
+      }
+    },
+    "val": "p",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "outdent",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 25,
+        "column": 1
+      },
+      "end": {
+        "line": 25,
+        "column": 1
+      }
+    },
+    "val": null,
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "if",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 25,
+        "column": 1
+      },
+      "end": {
+        "line": 25,
+        "column": 12
+      }
+    },
+    "val": "'nested'",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "indent",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 26,
+        "column": 1
+      },
+      "end": {
+        "line": 26,
+        "column": 3
+      }
+    },
+    "val": "2",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "if",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 26,
+        "column": 3
+      },
+      "end": {
+        "line": 26,
+        "column": 13
+      }
+    },
+    "val": "'works'",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "indent",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 27,
+        "column": 1
+      },
+      "end": {
+        "line": 27,
+        "column": 5
+      }
+    },
+    "val": "4",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "tag",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 27,
+        "column": 5
+      },
+      "end": {
+        "line": 27,
+        "column": 6
+      }
+    },
+    "val": "p",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "outdent",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 29,
+        "column": 1
+      },
+      "end": {
+        "line": 29,
+        "column": 1
+      }
+    },
+    "val": null,
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "outdent",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 29,
+        "column": 1
+      },
+      "end": {
+        "line": 29,
+        "column": 1
+      }
+    },
+    "val": null,
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "comment",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 29,
+        "column": 1
+      },
+      "end": {
+        "line": 29,
+        "column": 23
+      }
+    },
+    "val": " allow empty blocks",
+    "buffer": false,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "newline",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 30,
+        "column": 1
+      },
+      "end": {
+        "line": 30,
+        "column": 1
+      }
+    },
+    "val": null,
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "if",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 30,
+        "column": 1
+      },
+      "end": {
+        "line": 30,
+        "column": 9
+      }
+    },
+    "val": "false",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "newline",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 31,
+        "column": 1
+      },
+      "end": {
+        "line": 31,
+        "column": 1
+      }
+    },
+    "val": null,
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "else",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 31,
+        "column": 1
+      },
+      "end": {
+        "line": 31,
+        "column": 5
+      }
+    },
+    "val": "",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "indent",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 32,
+        "column": 1
+      },
+      "end": {
+        "line": 32,
+        "column": 3
+      }
+    },
+    "val": "2",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "class",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 32,
+        "column": 3
+      },
+      "end": {
+        "line": 32,
+        "column": 7
+      }
+    },
+    "val": "bar",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "outdent",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 33,
+        "column": 1
+      },
+      "end": {
+        "line": 33,
+        "column": 1
+      }
+    },
+    "val": null,
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "if",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 33,
+        "column": 1
+      },
+      "end": {
+        "line": 33,
+        "column": 8
+      }
+    },
+    "val": "true",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "indent",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 34,
+        "column": 1
+      },
+      "end": {
+        "line": 34,
+        "column": 3
+      }
+    },
+    "val": "2",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "class",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 34,
+        "column": 3
+      },
+      "end": {
+        "line": 34,
+        "column": 7
+      }
+    },
+    "val": "bar",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "outdent",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 35,
+        "column": 1
+      },
+      "end": {
+        "line": 35,
+        "column": 1
+      }
+    },
+    "val": null,
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "else",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 35,
+        "column": 1
+      },
+      "end": {
+        "line": 35,
+        "column": 5
+      }
+    },
+    "val": "",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "newline",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 36,
+        "column": 1
+      },
+      "end": {
+        "line": 36,
+        "column": 1
+      }
+    },
+    "val": null,
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "class",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 36,
+        "column": 1
+      },
+      "end": {
+        "line": 36,
+        "column": 6
+      }
+    },
+    "val": "bing",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "newline",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 38,
+        "column": 1
+      },
+      "end": {
+        "line": 38,
+        "column": 1
+      }
+    },
+    "val": null,
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "if",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 38,
+        "column": 1
+      },
+      "end": {
+        "line": 38,
+        "column": 9
+      }
+    },
+    "val": "false",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "indent",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 39,
+        "column": 1
+      },
+      "end": {
+        "line": 39,
+        "column": 3
+      }
+    },
+    "val": "2",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "class",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 39,
+        "column": 3
+      },
+      "end": {
+        "line": 39,
+        "column": 8
+      }
+    },
+    "val": "bing",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "outdent",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 40,
+        "column": 1
+      },
+      "end": {
+        "line": 40,
+        "column": 1
+      }
+    },
+    "val": null,
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "else-if",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 40,
+        "column": 1
+      },
+      "end": {
+        "line": 40,
+        "column": 14
+      }
+    },
+    "val": "false",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "indent",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 41,
+        "column": 1
+      },
+      "end": {
+        "line": 41,
+        "column": 3
+      }
+    },
+    "val": "2",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "class",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 41,
+        "column": 3
+      },
+      "end": {
+        "line": 41,
+        "column": 7
+      }
+    },
+    "val": "bar",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "outdent",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 42,
+        "column": 1
+      },
+      "end": {
+        "line": 42,
+        "column": 1
+      }
+    },
+    "val": null,
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "else",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 42,
+        "column": 1
+      },
+      "end": {
+        "line": 42,
+        "column": 5
+      }
+    },
+    "val": "",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "indent",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 43,
+        "column": 1
+      },
+      "end": {
+        "line": 43,
+        "column": 3
+      }
+    },
+    "val": "2",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "class",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 43,
+        "column": 3
+      },
+      "end": {
+        "line": 43,
+        "column": 7
+      }
+    },
+    "val": "foo",
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "outdent",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 43,
+        "column": 7
+      },
+      "end": {
+        "line": 43,
+        "column": 7
+      }
+    },
+    "val": null,
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "outdent",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 43,
+        "column": 7
+      },
+      "end": {
+        "line": 43,
+        "column": 7
+      }
+    },
+    "val": null,
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  },
+  {
+    "type": "eos",
+    "loc": {
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.conditionals.pug",
+      "start": {
+        "line": 43,
+        "column": 7
+      },
+      "end": {
+        "line": 43,
+        "column": 7
+      }
+    },
+    "val": null,
+    "buffer": null,
+    "mustEscape": null,
+    "mode": null,
+    "args": null,
+    "key": null,
+    "code": null,
+    "value": null,
+    "name": null
+  }
+]
