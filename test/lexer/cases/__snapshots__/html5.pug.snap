@@ -12,15 +12,7 @@
         "column": 13
       }
     },
-    "val": "html",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "val": "html"
   },
   {
     "type": "newline",
@@ -34,16 +26,7 @@
         "line": 2,
         "column": 1
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "tag",
@@ -58,15 +41,7 @@
         "column": 6
       }
     },
-    "val": "input",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "val": "input"
   },
   {
     "type": "start-attributes",
@@ -80,16 +55,7 @@
         "line": 2,
         "column": 7
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "attribute",
@@ -105,13 +71,7 @@
       }
     },
     "val": "'checkbox'",
-    "buffer": null,
     "mustEscape": true,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
     "name": "type"
   },
   {
@@ -128,13 +88,7 @@
       }
     },
     "val": true,
-    "buffer": null,
     "mustEscape": true,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
     "name": "checked"
   },
   {
@@ -149,16 +103,7 @@
         "line": 2,
         "column": 32
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "newline",
@@ -172,16 +117,7 @@
         "line": 3,
         "column": 1
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "tag",
@@ -196,15 +132,7 @@
         "column": 6
       }
     },
-    "val": "input",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "val": "input"
   },
   {
     "type": "start-attributes",
@@ -218,16 +146,7 @@
         "line": 3,
         "column": 7
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "attribute",
@@ -243,13 +162,7 @@
       }
     },
     "val": "'checkbox'",
-    "buffer": null,
     "mustEscape": true,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
     "name": "type"
   },
   {
@@ -266,13 +179,7 @@
       }
     },
     "val": "true",
-    "buffer": null,
     "mustEscape": true,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
     "name": "checked"
   },
   {
@@ -287,16 +194,7 @@
         "line": 3,
         "column": 37
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "newline",
@@ -310,16 +208,7 @@
         "line": 4,
         "column": 1
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "tag",
@@ -334,15 +223,7 @@
         "column": 6
       }
     },
-    "val": "input",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "val": "input"
   },
   {
     "type": "start-attributes",
@@ -356,16 +237,7 @@
         "line": 4,
         "column": 7
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "attribute",
@@ -381,13 +253,7 @@
       }
     },
     "val": "'checkbox'",
-    "buffer": null,
     "mustEscape": true,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
     "name": "type"
   },
   {
@@ -404,13 +270,7 @@
       }
     },
     "val": "false",
-    "buffer": null,
     "mustEscape": true,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
     "name": "checked"
   },
   {
@@ -425,16 +285,7 @@
         "line": 4,
         "column": 38
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "outdent",
@@ -448,16 +299,7 @@
         "line": 4,
         "column": 38
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "eos",
@@ -471,15 +313,6 @@
         "line": 4,
         "column": 38
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   }
 ]

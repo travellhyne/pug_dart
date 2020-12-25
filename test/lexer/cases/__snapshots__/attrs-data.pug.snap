@@ -14,13 +14,7 @@
     },
     "val": "var user = { name: 'tobi' }",
     "buffer": false,
-    "mustEscape": false,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "mustEscape": false
   },
   {
     "type": "newline",
@@ -34,16 +28,7 @@
         "line": 2,
         "column": 1
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "tag",
@@ -58,15 +43,7 @@
         "column": 4
       }
     },
-    "val": "foo",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "val": "foo"
   },
   {
     "type": "start-attributes",
@@ -80,16 +57,7 @@
         "line": 2,
         "column": 5
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "attribute",
@@ -105,13 +73,7 @@
       }
     },
     "val": "user",
-    "buffer": null,
     "mustEscape": true,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
     "name": "data-user"
   },
   {
@@ -126,16 +88,7 @@
         "line": 2,
         "column": 20
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "newline",
@@ -149,16 +102,7 @@
         "line": 3,
         "column": 1
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "tag",
@@ -173,15 +117,7 @@
         "column": 4
       }
     },
-    "val": "foo",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "val": "foo"
   },
   {
     "type": "start-attributes",
@@ -195,16 +131,7 @@
         "line": 3,
         "column": 5
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "attribute",
@@ -220,13 +147,7 @@
       }
     },
     "val": "[1,2,3]",
-    "buffer": null,
     "mustEscape": true,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
     "name": "data-items"
   },
   {
@@ -241,16 +162,7 @@
         "line": 3,
         "column": 24
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "newline",
@@ -264,16 +176,7 @@
         "line": 4,
         "column": 1
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "tag",
@@ -288,15 +191,7 @@
         "column": 4
       }
     },
-    "val": "foo",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "val": "foo"
   },
   {
     "type": "start-attributes",
@@ -310,16 +205,7 @@
         "line": 4,
         "column": 5
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "attribute",
@@ -335,13 +221,7 @@
       }
     },
     "val": "'tobi'",
-    "buffer": null,
     "mustEscape": true,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
     "name": "data-username"
   },
   {
@@ -356,16 +236,7 @@
         "line": 4,
         "column": 26
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "newline",
@@ -379,16 +250,7 @@
         "line": 5,
         "column": 1
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "tag",
@@ -403,15 +265,7 @@
         "column": 4
       }
     },
-    "val": "foo",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "val": "foo"
   },
   {
     "type": "start-attributes",
@@ -425,16 +279,7 @@
         "line": 5,
         "column": 5
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "attribute",
@@ -450,13 +295,7 @@
       }
     },
     "val": "{message: \"Let's rock!\"}",
-    "buffer": null,
     "mustEscape": true,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
     "name": "data-escaped"
   },
   {
@@ -471,16 +310,7 @@
         "line": 5,
         "column": 43
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "newline",
@@ -494,16 +324,7 @@
         "line": 6,
         "column": 1
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "tag",
@@ -518,15 +339,7 @@
         "column": 4
       }
     },
-    "val": "foo",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "val": "foo"
   },
   {
     "type": "start-attributes",
@@ -540,16 +353,7 @@
         "line": 6,
         "column": 5
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "attribute",
@@ -565,13 +369,7 @@
       }
     },
     "val": "{message: \"a quote: &quot; this & that\"}",
-    "buffer": null,
     "mustEscape": true,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
     "name": "data-ampersand"
   },
   {
@@ -586,16 +384,7 @@
         "line": 6,
         "column": 61
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "newline",
@@ -609,16 +398,7 @@
         "line": 7,
         "column": 1
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "tag",
@@ -633,15 +413,7 @@
         "column": 4
       }
     },
-    "val": "foo",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "val": "foo"
   },
   {
     "type": "start-attributes",
@@ -655,16 +427,7 @@
         "line": 7,
         "column": 5
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "attribute",
@@ -680,13 +443,7 @@
       }
     },
     "val": "new",
-    "buffer": null,
     "mustEscape": true,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
     "name": "data-epoc"
   },
   {
@@ -703,13 +460,7 @@
       }
     },
     "val": true,
-    "buffer": null,
     "mustEscape": true,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
     "name": "Date(0)"
   },
   {
@@ -724,16 +475,7 @@
         "line": 7,
         "column": 27
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "newline",
@@ -747,16 +489,7 @@
         "line": 8,
         "column": 1
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "outdent",
@@ -770,16 +503,7 @@
         "line": 8,
         "column": 1
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "eos",
@@ -793,15 +517,6 @@
         "line": 8,
         "column": 1
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   }
 ]

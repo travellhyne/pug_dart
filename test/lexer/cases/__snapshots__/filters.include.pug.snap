@@ -12,15 +12,7 @@
         "column": 5
       }
     },
-    "val": "html",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "val": "html"
   },
   {
     "type": "indent",
@@ -35,15 +27,7 @@
         "column": 3
       }
     },
-    "val": "2",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "val": "2"
   },
   {
     "type": "tag",
@@ -58,15 +42,7 @@
         "column": 7
       }
     },
-    "val": "body",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "val": "body"
   },
   {
     "type": "indent",
@@ -81,15 +57,7 @@
         "column": 5
       }
     },
-    "val": "4",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "val": "4"
   },
   {
     "type": "include",
@@ -103,16 +71,7 @@
         "line": 3,
         "column": 12
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "filter",
@@ -127,15 +86,7 @@
         "column": 24
       }
     },
-    "val": "markdown-it",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "val": "markdown-it"
   },
   {
     "type": "path",
@@ -150,15 +101,7 @@
         "column": 32
       }
     },
-    "val": "some.md",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "val": "some.md"
   },
   {
     "type": "newline",
@@ -172,16 +115,7 @@
         "line": 4,
         "column": 5
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "tag",
@@ -196,15 +130,7 @@
         "column": 11
       }
     },
-    "val": "script",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "val": "script"
   },
   {
     "type": "indent",
@@ -219,15 +145,7 @@
         "column": 7
       }
     },
-    "val": "6",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "val": "6"
   },
   {
     "type": "include",
@@ -241,16 +159,7 @@
         "line": 5,
         "column": 14
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "filter",
@@ -265,15 +174,7 @@
         "column": 28
       }
     },
-    "val": "coffee-script",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "val": "coffee-script"
   },
   {
     "type": "start-attributes",
@@ -287,16 +188,7 @@
         "line": 5,
         "column": 29
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "attribute",
@@ -312,13 +204,7 @@
       }
     },
     "val": "true",
-    "buffer": null,
     "mustEscape": true,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
     "name": "minify"
   },
   {
@@ -333,16 +219,7 @@
         "line": 5,
         "column": 41
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "path",
@@ -357,15 +234,7 @@
         "column": 70
       }
     },
-    "val": "include-filter-coffee.coffee",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "val": "include-filter-coffee.coffee"
   },
   {
     "type": "outdent",
@@ -379,16 +248,7 @@
         "line": 6,
         "column": 5
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "tag",
@@ -403,15 +263,7 @@
         "column": 11
       }
     },
-    "val": "script",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "val": "script"
   },
   {
     "type": "indent",
@@ -426,15 +278,7 @@
         "column": 7
       }
     },
-    "val": "6",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "val": "6"
   },
   {
     "type": "include",
@@ -448,16 +292,7 @@
         "line": 7,
         "column": 14
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "filter",
@@ -472,15 +307,7 @@
         "column": 20
       }
     },
-    "val": "cdata",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "val": "cdata"
   },
   {
     "type": "filter",
@@ -495,15 +322,7 @@
         "column": 34
       }
     },
-    "val": "coffee-script",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "val": "coffee-script"
   },
   {
     "type": "start-attributes",
@@ -517,16 +336,7 @@
         "line": 7,
         "column": 35
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "attribute",
@@ -542,13 +352,7 @@
       }
     },
     "val": "false",
-    "buffer": null,
     "mustEscape": true,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
     "name": "minify"
   },
   {
@@ -563,16 +367,7 @@
         "line": 7,
         "column": 48
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "path",
@@ -587,15 +382,7 @@
         "column": 77
       }
     },
-    "val": "include-filter-coffee.coffee",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "val": "include-filter-coffee.coffee"
   },
   {
     "type": "outdent",
@@ -609,16 +396,7 @@
         "line": 8,
         "column": 1
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "outdent",
@@ -632,16 +410,7 @@
         "line": 8,
         "column": 1
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "outdent",
@@ -655,16 +424,7 @@
         "line": 8,
         "column": 1
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "outdent",
@@ -678,16 +438,7 @@
         "line": 8,
         "column": 1
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "eos",
@@ -701,15 +452,6 @@
         "line": 8,
         "column": 1
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   }
 ]

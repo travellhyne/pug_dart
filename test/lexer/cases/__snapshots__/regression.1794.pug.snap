@@ -11,16 +11,7 @@
         "line": 1,
         "column": 8
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "path",
@@ -35,15 +26,7 @@
         "column": 37
       }
     },
-    "val": "./auxiliary/1794-extends.pug",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "val": "./auxiliary/1794-extends.pug"
   },
   {
     "type": "newline",
@@ -57,16 +40,7 @@
         "line": 3,
         "column": 1
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "block",
@@ -82,14 +56,7 @@
       }
     },
     "val": "content",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": "replace",
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "mode": "replace"
   },
   {
     "type": "indent",
@@ -104,15 +71,7 @@
         "column": 3
       }
     },
-    "val": "2",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "val": "2"
   },
   {
     "type": "include",
@@ -126,16 +85,7 @@
         "line": 4,
         "column": 10
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "path",
@@ -150,15 +100,7 @@
         "column": 39
       }
     },
-    "val": "./auxiliary/1794-include.pug",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "val": "./auxiliary/1794-include.pug"
   },
   {
     "type": "outdent",
@@ -172,16 +114,7 @@
         "line": 4,
         "column": 39
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "outdent",
@@ -195,16 +128,7 @@
         "line": 4,
         "column": 39
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "eos",
@@ -218,15 +142,6 @@
         "line": 4,
         "column": 39
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   }
 ]

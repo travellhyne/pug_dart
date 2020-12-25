@@ -12,15 +12,7 @@
         "column": 12
       }
     },
-    "val": "xml",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "val": "xml"
   },
   {
     "type": "newline",
@@ -34,16 +26,7 @@
         "line": 2,
         "column": 1
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "tag",
@@ -58,15 +41,7 @@
         "column": 9
       }
     },
-    "val": "category",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "val": "category"
   },
   {
     "type": "start-attributes",
@@ -80,16 +55,7 @@
         "line": 2,
         "column": 10
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "attribute",
@@ -105,13 +71,7 @@
       }
     },
     "val": "'some term'",
-    "buffer": null,
     "mustEscape": true,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
     "name": "term"
   },
   {
@@ -126,16 +86,7 @@
         "line": 2,
         "column": 27
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "slash",
@@ -149,16 +100,7 @@
         "line": 2,
         "column": 28
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "newline",
@@ -172,16 +114,7 @@
         "line": 3,
         "column": 1
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "tag",
@@ -196,15 +129,7 @@
         "column": 5
       }
     },
-    "val": "link",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "val": "link"
   },
   {
     "type": "outdent",
@@ -218,16 +143,7 @@
         "line": 3,
         "column": 6
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "eos",
@@ -241,15 +157,6 @@
         "line": 3,
         "column": 6
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   }
 ]

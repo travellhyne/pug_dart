@@ -12,15 +12,7 @@
         "column": 13
       }
     },
-    "val": "fb:user:role",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "val": "fb:user:role"
   },
   {
     "type": "newline",
@@ -34,16 +26,7 @@
         "line": 2,
         "column": 1
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "tag",
@@ -58,15 +41,7 @@
         "column": 4
       }
     },
-    "val": "foo",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "val": "foo"
   },
   {
     "type": "start-attributes",
@@ -80,16 +55,7 @@
         "line": 2,
         "column": 5
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "attribute",
@@ -105,13 +71,7 @@
       }
     },
     "val": "'bar'",
-    "buffer": null,
     "mustEscape": true,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
     "name": "fb:foo"
   },
   {
@@ -126,16 +86,7 @@
         "line": 2,
         "column": 18
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "outdent",
@@ -149,16 +100,7 @@
         "line": 2,
         "column": 18
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "eos",
@@ -172,15 +114,6 @@
         "line": 2,
         "column": 18
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   }
 ]

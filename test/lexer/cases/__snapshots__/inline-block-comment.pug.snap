@@ -13,14 +13,7 @@
       }
     },
     "val": "content",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": "replace",
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "mode": "replace"
   },
   {
     "type": "comment",
@@ -36,14 +29,7 @@
       }
     },
     "val": " Main content goes here",
-    "buffer": true,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "buffer": true
   },
   {
     "type": "newline",
@@ -57,16 +43,7 @@
         "line": 2,
         "column": 1
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "block",
@@ -82,14 +59,7 @@
       }
     },
     "val": "content",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": "append",
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "mode": "append"
   },
   {
     "type": "comment",
@@ -105,14 +75,7 @@
       }
     },
     "val": " adding something to content",
-    "buffer": true,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "buffer": true
   },
   {
     "type": "newline",
@@ -126,16 +89,7 @@
         "line": 3,
         "column": 1
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "block",
@@ -151,14 +105,7 @@
       }
     },
     "val": "content",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": "prepend",
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "mode": "prepend"
   },
   {
     "type": "comment",
@@ -174,14 +121,7 @@
       }
     },
     "val": " adding something to other end of content",
-    "buffer": true,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "buffer": true
   },
   {
     "type": "newline",
@@ -195,16 +135,7 @@
         "line": 4,
         "column": 1
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "outdent",
@@ -218,16 +149,7 @@
         "line": 4,
         "column": 1
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "eos",
@@ -241,15 +163,6 @@
         "line": 4,
         "column": 1
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   }
 ]

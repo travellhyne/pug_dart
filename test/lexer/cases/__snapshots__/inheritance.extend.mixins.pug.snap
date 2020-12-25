@@ -11,16 +11,7 @@
         "line": 2,
         "column": 1
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "extends",
@@ -34,16 +25,7 @@
         "line": 2,
         "column": 7
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "path",
@@ -58,15 +40,7 @@
         "column": 28
       }
     },
-    "val": "auxiliary/layout.pug",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "val": "auxiliary/layout.pug"
   },
   {
     "type": "newline",
@@ -80,16 +54,7 @@
         "line": 4,
         "column": 1
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "mixin",
@@ -105,14 +70,7 @@
       }
     },
     "val": "article",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": "title",
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "args": "title"
   },
   {
     "type": "indent",
@@ -127,15 +85,7 @@
         "column": 3
       }
     },
-    "val": "2",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "val": "2"
   },
   {
     "type": "if",
@@ -150,15 +100,7 @@
         "column": 11
       }
     },
-    "val": "title",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "val": "title"
   },
   {
     "type": "indent",
@@ -173,15 +115,7 @@
         "column": 5
       }
     },
-    "val": "4",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "val": "4"
   },
   {
     "type": "tag",
@@ -196,15 +130,7 @@
         "column": 7
       }
     },
-    "val": "h1",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "val": "h1"
   },
   {
     "type": "code",
@@ -221,13 +147,7 @@
     },
     "val": "title",
     "buffer": true,
-    "mustEscape": true,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "mustEscape": true
   },
   {
     "type": "outdent",
@@ -241,16 +161,7 @@
         "line": 7,
         "column": 3
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "mixin-block",
@@ -264,16 +175,7 @@
         "line": 7,
         "column": 8
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "outdent",
@@ -287,16 +189,7 @@
         "line": 9,
         "column": 1
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "block",
@@ -312,14 +205,7 @@
       }
     },
     "val": "content",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": "replace",
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "mode": "replace"
   },
   {
     "type": "indent",
@@ -334,15 +220,7 @@
         "column": 3
       }
     },
-    "val": "2",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "val": "2"
   },
   {
     "type": "call",
@@ -358,14 +236,7 @@
       }
     },
     "val": "article",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": "\"The meaning of life\"",
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "args": "\"The meaning of life\""
   },
   {
     "type": "indent",
@@ -380,15 +251,7 @@
         "column": 5
       }
     },
-    "val": "4",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "val": "4"
   },
   {
     "type": "tag",
@@ -403,15 +266,7 @@
         "column": 6
       }
     },
-    "val": "p",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "val": "p"
   },
   {
     "type": "outdent",
@@ -425,16 +280,7 @@
         "line": 12,
         "column": 1
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "outdent",
@@ -448,16 +294,7 @@
         "line": 12,
         "column": 1
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "outdent",
@@ -471,16 +308,7 @@
         "line": 12,
         "column": 1
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "eos",
@@ -494,15 +322,6 @@
         "line": 12,
         "column": 1
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   }
 ]

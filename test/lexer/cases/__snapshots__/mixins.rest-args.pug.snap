@@ -13,14 +13,7 @@
       }
     },
     "val": "list",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": "tag, ...items",
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "args": "tag, ...items"
   },
   {
     "type": "indent",
@@ -35,15 +28,7 @@
         "column": 3
       }
     },
-    "val": "2",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "val": "2"
   },
   {
     "type": "interpolation",
@@ -58,15 +43,7 @@
         "column": 9
       }
     },
-    "val": "tag",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "val": "tag"
   },
   {
     "type": "indent",
@@ -81,15 +58,7 @@
         "column": 5
       }
     },
-    "val": "4",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "val": "4"
   },
   {
     "type": "each",
@@ -105,14 +74,7 @@
       }
     },
     "val": "item",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": "items",
-    "value": null,
-    "name": null
+    "code": "items"
   },
   {
     "type": "indent",
@@ -127,15 +89,7 @@
         "column": 7
       }
     },
-    "val": "6",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "val": "6"
   },
   {
     "type": "tag",
@@ -150,15 +104,7 @@
         "column": 9
       }
     },
-    "val": "li",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "val": "li"
   },
   {
     "type": "code",
@@ -175,13 +121,7 @@
     },
     "val": "item",
     "buffer": true,
-    "mustEscape": true,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "mustEscape": true
   },
   {
     "type": "outdent",
@@ -195,16 +135,7 @@
         "line": 6,
         "column": 1
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "outdent",
@@ -218,16 +149,7 @@
         "line": 6,
         "column": 1
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "outdent",
@@ -241,16 +163,7 @@
         "line": 6,
         "column": 1
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "call",
@@ -266,14 +179,7 @@
       }
     },
     "val": "list",
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": "'ul', 1, 2, 3, 4",
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    "args": "'ul', 1, 2, 3, 4"
   },
   {
     "type": "newline",
@@ -287,16 +193,7 @@
         "line": 7,
         "column": 1
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "outdent",
@@ -310,16 +207,7 @@
         "line": 7,
         "column": 1
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   },
   {
     "type": "eos",
@@ -333,15 +221,6 @@
         "line": 7,
         "column": 1
       }
-    },
-    "val": null,
-    "buffer": null,
-    "mustEscape": null,
-    "mode": null,
-    "args": null,
-    "key": null,
-    "code": null,
-    "value": null,
-    "name": null
+    }
   }
 ]
