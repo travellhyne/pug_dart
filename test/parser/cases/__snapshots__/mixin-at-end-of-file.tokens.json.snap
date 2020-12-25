@@ -1,0 +1,64 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Include",
+      "line": 1,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixin-at-end-of-file.tokens.json",
+      "file": {
+        "type": "FileReference",
+        "line": 1,
+        "column": 9,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixin-at-end-of-file.tokens.json",
+        "path": "./auxiliary/mixin-at-end-of-file.pug"
+      }
+    },
+    {
+      "type": "Mixin",
+      "line": 3,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixin-at-end-of-file.tokens.json",
+      "name": "slide",
+      "attrs": [],
+      "attributeBlocks": [],
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "line": 4,
+            "column": 3,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixin-at-end-of-file.tokens.json",
+            "name": "p",
+            "selfClosing": false,
+            "attrs": [],
+            "attributeBlocks": [],
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Text",
+                  "line": 4,
+                  "column": 5,
+                  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixin-at-end-of-file.tokens.json",
+                  "val": "some awesome content",
+                  "isHtml": false
+                }
+              ],
+              "line": 4,
+              "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixin-at-end-of-file.tokens.json"
+            },
+            "isInline": false
+          }
+        ],
+        "line": 3,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixin-at-end-of-file.tokens.json"
+      },
+      "args": "",
+      "call": true
+    }
+  ],
+  "line": 0,
+  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixin-at-end-of-file.tokens.json"
+}

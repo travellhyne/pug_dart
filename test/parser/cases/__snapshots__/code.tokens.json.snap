@@ -1,0 +1,277 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Tag",
+      "line": 1,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/code.tokens.json",
+      "name": "p",
+      "selfClosing": false,
+      "attrs": [],
+      "attributeBlocks": [],
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Code",
+            "line": 1,
+            "column": 2,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/code.tokens.json",
+            "val": "null",
+            "buffer": true,
+            "mustEscape": true,
+            "isInline": true
+          }
+        ],
+        "line": 1,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/code.tokens.json"
+      },
+      "isInline": false
+    },
+    {
+      "type": "Tag",
+      "line": 2,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/code.tokens.json",
+      "name": "p",
+      "selfClosing": false,
+      "attrs": [],
+      "attributeBlocks": [],
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Code",
+            "line": 2,
+            "column": 2,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/code.tokens.json",
+            "val": "undefined",
+            "buffer": true,
+            "mustEscape": true,
+            "isInline": true
+          }
+        ],
+        "line": 2,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/code.tokens.json"
+      },
+      "isInline": false
+    },
+    {
+      "type": "Tag",
+      "line": 3,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/code.tokens.json",
+      "name": "p",
+      "selfClosing": false,
+      "attrs": [],
+      "attributeBlocks": [],
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Code",
+            "line": 3,
+            "column": 2,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/code.tokens.json",
+            "val": "''",
+            "buffer": true,
+            "mustEscape": true,
+            "isInline": true
+          }
+        ],
+        "line": 3,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/code.tokens.json"
+      },
+      "isInline": false
+    },
+    {
+      "type": "Tag",
+      "line": 4,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/code.tokens.json",
+      "name": "p",
+      "selfClosing": false,
+      "attrs": [],
+      "attributeBlocks": [],
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Code",
+            "line": 4,
+            "column": 2,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/code.tokens.json",
+            "val": "0",
+            "buffer": true,
+            "mustEscape": true,
+            "isInline": true
+          }
+        ],
+        "line": 4,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/code.tokens.json"
+      },
+      "isInline": false
+    },
+    {
+      "type": "Tag",
+      "line": 5,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/code.tokens.json",
+      "name": "p",
+      "selfClosing": false,
+      "attrs": [],
+      "attributeBlocks": [],
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Code",
+            "line": 5,
+            "column": 2,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/code.tokens.json",
+            "val": "false",
+            "buffer": true,
+            "mustEscape": true,
+            "isInline": true
+          }
+        ],
+        "line": 5,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/code.tokens.json"
+      },
+      "isInline": false
+    },
+    {
+      "type": "Tag",
+      "line": 6,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/code.tokens.json",
+      "name": "p",
+      "selfClosing": false,
+      "attrs": [
+        {
+          "line": 6,
+          "column": 3,
+          "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/code.tokens.json",
+          "val": "null",
+          "name": "foo",
+          "mustEscape": true
+        }
+      ],
+      "attributeBlocks": [],
+      "block": {
+        "type": "Block",
+        "nodes": [],
+        "line": 6,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/code.tokens.json"
+      },
+      "isInline": false
+    },
+    {
+      "type": "Tag",
+      "line": 7,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/code.tokens.json",
+      "name": "p",
+      "selfClosing": false,
+      "attrs": [
+        {
+          "line": 7,
+          "column": 3,
+          "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/code.tokens.json",
+          "val": "undefined",
+          "name": "foo",
+          "mustEscape": true
+        }
+      ],
+      "attributeBlocks": [],
+      "block": {
+        "type": "Block",
+        "nodes": [],
+        "line": 7,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/code.tokens.json"
+      },
+      "isInline": false
+    },
+    {
+      "type": "Tag",
+      "line": 8,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/code.tokens.json",
+      "name": "p",
+      "selfClosing": false,
+      "attrs": [
+        {
+          "line": 8,
+          "column": 3,
+          "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/code.tokens.json",
+          "val": "''",
+          "name": "foo",
+          "mustEscape": true
+        }
+      ],
+      "attributeBlocks": [],
+      "block": {
+        "type": "Block",
+        "nodes": [],
+        "line": 8,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/code.tokens.json"
+      },
+      "isInline": false
+    },
+    {
+      "type": "Tag",
+      "line": 9,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/code.tokens.json",
+      "name": "p",
+      "selfClosing": false,
+      "attrs": [
+        {
+          "line": 9,
+          "column": 3,
+          "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/code.tokens.json",
+          "val": "0",
+          "name": "foo",
+          "mustEscape": true
+        }
+      ],
+      "attributeBlocks": [],
+      "block": {
+        "type": "Block",
+        "nodes": [],
+        "line": 9,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/code.tokens.json"
+      },
+      "isInline": false
+    },
+    {
+      "type": "Tag",
+      "line": 10,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/code.tokens.json",
+      "name": "p",
+      "selfClosing": false,
+      "attrs": [
+        {
+          "line": 10,
+          "column": 3,
+          "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/code.tokens.json",
+          "val": "false",
+          "name": "foo",
+          "mustEscape": true
+        }
+      ],
+      "attributeBlocks": [],
+      "block": {
+        "type": "Block",
+        "nodes": [],
+        "line": 10,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/code.tokens.json"
+      },
+      "isInline": false
+    }
+  ],
+  "line": 0,
+  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/code.tokens.json"
+}

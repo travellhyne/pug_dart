@@ -1,0 +1,20 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Include",
+      "line": 2,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/include.yield.nested.tokens.json",
+      "file": {
+        "type": "FileReference",
+        "line": 2,
+        "column": 9,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/include.yield.nested.tokens.json",
+        "path": "auxiliary/yield-nested.pug"
+      }
+    }
+  ],
+  "line": 0,
+  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/include.yield.nested.tokens.json"
+}

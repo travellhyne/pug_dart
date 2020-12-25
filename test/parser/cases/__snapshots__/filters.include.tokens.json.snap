@@ -1,0 +1,152 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Tag",
+      "line": 1,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/filters.include.tokens.json",
+      "name": "html",
+      "selfClosing": false,
+      "attrs": [],
+      "attributeBlocks": [],
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "line": 2,
+            "column": 3,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/filters.include.tokens.json",
+            "name": "body",
+            "selfClosing": false,
+            "attrs": [],
+            "attributeBlocks": [],
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "RawInclude",
+                  "line": 3,
+                  "column": 5,
+                  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/filters.include.tokens.json",
+                  "file": {
+                    "type": "FileReference",
+                    "line": 3,
+                    "column": 25,
+                    "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/filters.include.tokens.json",
+                    "path": "some.md"
+                  },
+                  "filters": [
+                    {
+                      "type": "IncludeFilter",
+                      "line": 3,
+                      "column": 12,
+                      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/filters.include.tokens.json",
+                      "name": "markdown-it"
+                    }
+                  ]
+                },
+                {
+                  "type": "Tag",
+                  "line": 4,
+                  "column": 5,
+                  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/filters.include.tokens.json",
+                  "name": "script",
+                  "selfClosing": false,
+                  "attrs": [],
+                  "attributeBlocks": [],
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "RawInclude",
+                        "line": 5,
+                        "column": 7,
+                        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/filters.include.tokens.json",
+                        "file": {
+                          "type": "FileReference",
+                          "line": 5,
+                          "column": 42,
+                          "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/filters.include.tokens.json",
+                          "path": "include-filter-coffee.coffee"
+                        },
+                        "filters": [
+                          {
+                            "type": "IncludeFilter",
+                            "line": 5,
+                            "column": 14,
+                            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/filters.include.tokens.json",
+                            "name": "coffee-script"
+                          }
+                        ]
+                      }
+                    ],
+                    "line": 4,
+                    "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/filters.include.tokens.json"
+                  },
+                  "isInline": false
+                },
+                {
+                  "type": "Tag",
+                  "line": 6,
+                  "column": 5,
+                  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/filters.include.tokens.json",
+                  "name": "script",
+                  "selfClosing": false,
+                  "attrs": [],
+                  "attributeBlocks": [],
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "RawInclude",
+                        "line": 7,
+                        "column": 7,
+                        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/filters.include.tokens.json",
+                        "file": {
+                          "type": "FileReference",
+                          "line": 7,
+                          "column": 49,
+                          "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/filters.include.tokens.json",
+                          "path": "include-filter-coffee.coffee"
+                        },
+                        "filters": [
+                          {
+                            "type": "IncludeFilter",
+                            "line": 7,
+                            "column": 14,
+                            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/filters.include.tokens.json",
+                            "name": "cdata"
+                          },
+                          {
+                            "type": "IncludeFilter",
+                            "line": 7,
+                            "column": 20,
+                            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/filters.include.tokens.json",
+                            "name": "coffee-script"
+                          }
+                        ]
+                      }
+                    ],
+                    "line": 6,
+                    "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/filters.include.tokens.json"
+                  },
+                  "isInline": false
+                }
+              ],
+              "line": 2,
+              "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/filters.include.tokens.json"
+            },
+            "isInline": false
+          }
+        ],
+        "line": 1,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/filters.include.tokens.json"
+      },
+      "isInline": false
+    }
+  ],
+  "line": 0,
+  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/filters.include.tokens.json"
+}

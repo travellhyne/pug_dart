@@ -1,0 +1,38 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Comment",
+      "line": 1,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixin-via-include.tokens.json",
+      "val": " regression test for https://github.com/pugjs/pug/issues/1435",
+      "buffer": false
+    },
+    {
+      "type": "Include",
+      "line": 3,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixin-via-include.tokens.json",
+      "file": {
+        "type": "FileReference",
+        "line": 3,
+        "column": 9,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixin-via-include.tokens.json",
+        "path": "../fixtures/mixin-include.pug"
+      }
+    },
+    {
+      "type": "Mixin",
+      "line": 5,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixin-via-include.tokens.json",
+      "name": "bang",
+      "attrs": [],
+      "attributeBlocks": [],
+      "call": true
+    }
+  ],
+  "line": 0,
+  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixin-via-include.tokens.json"
+}

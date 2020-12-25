@@ -1,0 +1,57 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Tag",
+      "line": 1,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/includes-with-ext-js.tokens.json",
+      "name": "pre",
+      "selfClosing": false,
+      "attrs": [],
+      "attributeBlocks": [],
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "line": 2,
+            "column": 3,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/includes-with-ext-js.tokens.json",
+            "name": "code",
+            "selfClosing": false,
+            "attrs": [],
+            "attributeBlocks": [],
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "RawInclude",
+                  "line": 3,
+                  "column": 5,
+                  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/includes-with-ext-js.tokens.json",
+                  "file": {
+                    "type": "FileReference",
+                    "line": 3,
+                    "column": 13,
+                    "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/includes-with-ext-js.tokens.json",
+                    "path": "javascript-new-lines.js"
+                  },
+                  "filters": []
+                }
+              ],
+              "line": 2,
+              "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/includes-with-ext-js.tokens.json"
+            },
+            "isInline": true
+          }
+        ],
+        "line": 1,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/includes-with-ext-js.tokens.json"
+      },
+      "isInline": false
+    }
+  ],
+  "line": 0,
+  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/includes-with-ext-js.tokens.json"
+}

@@ -1571,6 +1571,21 @@ class Token {
     this.val,
   });
 
+  Token.fromJSON(Map<String, dynamic> json) {
+    type = json['type'] as String;
+    filename = json['filename'] as String;
+    loc = TokenLoc.fromJSON(json['loc'] as Map<String, dynamic>);
+    val = json['val'];
+    buffer = json['buffer'] as bool;
+    mustEscape = json['mustEscape'] as bool;
+    mode = json['mode'] as String;
+    args = json['args'] as String;
+    key = json['key'] as String;
+    code = json['code'] as String;
+    value = json['value'] as String;
+    name = json['name'] as String;
+  }
+
   String type;
   String filename;
   TokenLoc loc;
@@ -1608,8 +1623,14 @@ class TokenLoc {
     this.filename,
   });
 
-  final TokenLocPoint start;
-  final String filename;
+  TokenLoc.fromJSON(Map<String, dynamic> json) {
+    filename = json['filename'] as String;
+    start = TokenLocPoint.fromJSON(json['start'] as Map<String, dynamic>);
+    end = TokenLocPoint.fromJSON(json['end'] as Map<String, dynamic>);
+  }
+
+  TokenLocPoint start;
+  String filename;
   TokenLocPoint end;
 
   Map<String, dynamic> toJSON() => {
@@ -1625,8 +1646,13 @@ class TokenLocPoint {
     this.column,
   });
 
-  final int line;
-  final int column;
+  TokenLocPoint.fromJSON(Map<String, dynamic> json) {
+    line = json['line'] as int;
+    column = json['column'] as int;
+  }
+
+  int line;
+  int column;
 
   Map<String, int> toJSON() => {
     'line': line,

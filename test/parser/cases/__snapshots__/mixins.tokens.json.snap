@@ -1,0 +1,539 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Mixin",
+      "line": 1,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json",
+      "name": "comment",
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "line": 2,
+            "column": 3,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json",
+            "name": "div",
+            "selfClosing": false,
+            "attrs": [
+              {
+                "line": 2,
+                "column": 3,
+                "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json",
+                "val": "'comment'",
+                "name": "class",
+                "mustEscape": false
+              }
+            ],
+            "attributeBlocks": [],
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Tag",
+                  "line": 3,
+                  "column": 5,
+                  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json",
+                  "name": "h2",
+                  "selfClosing": false,
+                  "attrs": [],
+                  "attributeBlocks": [],
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "Code",
+                        "line": 3,
+                        "column": 7,
+                        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json",
+                        "val": "title",
+                        "buffer": true,
+                        "mustEscape": true,
+                        "isInline": true
+                      }
+                    ],
+                    "line": 3,
+                    "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json"
+                  },
+                  "isInline": false
+                },
+                {
+                  "type": "Tag",
+                  "line": 4,
+                  "column": 5,
+                  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json",
+                  "name": "p",
+                  "selfClosing": false,
+                  "attrs": [
+                    {
+                      "line": 4,
+                      "column": 6,
+                      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json",
+                      "val": "'body'",
+                      "name": "class",
+                      "mustEscape": false
+                    }
+                  ],
+                  "attributeBlocks": [],
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "Code",
+                        "line": 4,
+                        "column": 11,
+                        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json",
+                        "val": "str",
+                        "buffer": true,
+                        "mustEscape": true,
+                        "isInline": true
+                      }
+                    ],
+                    "line": 4,
+                    "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json"
+                  },
+                  "isInline": false
+                }
+              ],
+              "line": 2,
+              "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json"
+            },
+            "isInline": false
+          }
+        ],
+        "line": 2,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json"
+      },
+      "args": "title, str",
+      "call": false
+    },
+    {
+      "type": "Mixin",
+      "line": 7,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json",
+      "name": "comment",
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "line": 8,
+            "column": 3,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json",
+            "name": "div",
+            "selfClosing": false,
+            "attrs": [
+              {
+                "line": 8,
+                "column": 3,
+                "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json",
+                "val": "'comment'",
+                "name": "class",
+                "mustEscape": false
+              }
+            ],
+            "attributeBlocks": [],
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Tag",
+                  "line": 9,
+                  "column": 5,
+                  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json",
+                  "name": "h2",
+                  "selfClosing": false,
+                  "attrs": [],
+                  "attributeBlocks": [],
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "Code",
+                        "line": 9,
+                        "column": 7,
+                        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json",
+                        "val": "title",
+                        "buffer": true,
+                        "mustEscape": true,
+                        "isInline": true
+                      }
+                    ],
+                    "line": 9,
+                    "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json"
+                  },
+                  "isInline": false
+                },
+                {
+                  "type": "Tag",
+                  "line": 10,
+                  "column": 5,
+                  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json",
+                  "name": "p",
+                  "selfClosing": false,
+                  "attrs": [
+                    {
+                      "line": 10,
+                      "column": 6,
+                      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json",
+                      "val": "'body'",
+                      "name": "class",
+                      "mustEscape": false
+                    }
+                  ],
+                  "attributeBlocks": [],
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "Code",
+                        "line": 10,
+                        "column": 11,
+                        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json",
+                        "val": "str",
+                        "buffer": true,
+                        "mustEscape": true,
+                        "isInline": true
+                      }
+                    ],
+                    "line": 10,
+                    "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json"
+                  },
+                  "isInline": false
+                }
+              ],
+              "line": 8,
+              "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json"
+            },
+            "isInline": false
+          }
+        ],
+        "line": 8,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json"
+      },
+      "args": "title, str",
+      "call": false
+    },
+    {
+      "type": "Tag",
+      "line": 12,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json",
+      "name": "div",
+      "selfClosing": false,
+      "attrs": [
+        {
+          "line": 12,
+          "column": 1,
+          "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json",
+          "val": "'user'",
+          "name": "id",
+          "mustEscape": false
+        }
+      ],
+      "attributeBlocks": [],
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "line": 13,
+            "column": 3,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json",
+            "name": "h1",
+            "selfClosing": false,
+            "attrs": [],
+            "attributeBlocks": [],
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Text",
+                  "line": 13,
+                  "column": 6,
+                  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json",
+                  "val": "Tobi",
+                  "isHtml": false
+                }
+              ],
+              "line": 13,
+              "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json"
+            },
+            "isInline": false
+          },
+          {
+            "type": "Tag",
+            "line": 14,
+            "column": 3,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json",
+            "name": "div",
+            "selfClosing": false,
+            "attrs": [
+              {
+                "line": 14,
+                "column": 3,
+                "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json",
+                "val": "'comments'",
+                "name": "class",
+                "mustEscape": false
+              }
+            ],
+            "attributeBlocks": [],
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Mixin",
+                  "line": 15,
+                  "column": 5,
+                  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json",
+                  "name": "comment",
+                  "attrs": [],
+                  "attributeBlocks": [],
+                  "args": "'This',\n            (('is regular, javascript'))",
+                  "call": true
+                }
+              ],
+              "line": 14,
+              "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json"
+            },
+            "isInline": false
+          }
+        ],
+        "line": 12,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json"
+      },
+      "isInline": false
+    },
+    {
+      "type": "Mixin",
+      "line": 18,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json",
+      "name": "list",
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "line": 19,
+            "column": 3,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json",
+            "name": "ul",
+            "selfClosing": false,
+            "attrs": [],
+            "attributeBlocks": [],
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Tag",
+                  "line": 20,
+                  "column": 5,
+                  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json",
+                  "name": "li",
+                  "selfClosing": false,
+                  "attrs": [],
+                  "attributeBlocks": [],
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "Text",
+                        "line": 20,
+                        "column": 8,
+                        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json",
+                        "val": "foo",
+                        "isHtml": false
+                      }
+                    ],
+                    "line": 20,
+                    "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json"
+                  },
+                  "isInline": false
+                },
+                {
+                  "type": "Tag",
+                  "line": 21,
+                  "column": 5,
+                  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json",
+                  "name": "li",
+                  "selfClosing": false,
+                  "attrs": [],
+                  "attributeBlocks": [],
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "Text",
+                        "line": 21,
+                        "column": 8,
+                        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json",
+                        "val": "bar",
+                        "isHtml": false
+                      }
+                    ],
+                    "line": 21,
+                    "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json"
+                  },
+                  "isInline": false
+                },
+                {
+                  "type": "Tag",
+                  "line": 22,
+                  "column": 5,
+                  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json",
+                  "name": "li",
+                  "selfClosing": false,
+                  "attrs": [],
+                  "attributeBlocks": [],
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "Text",
+                        "line": 22,
+                        "column": 8,
+                        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json",
+                        "val": "baz",
+                        "isHtml": false
+                      }
+                    ],
+                    "line": 22,
+                    "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json"
+                  },
+                  "isInline": false
+                }
+              ],
+              "line": 19,
+              "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json"
+            },
+            "isInline": false
+          }
+        ],
+        "line": 19,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json"
+      },
+      "call": false
+    },
+    {
+      "type": "Tag",
+      "line": 24,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json",
+      "name": "body",
+      "selfClosing": false,
+      "attrs": [],
+      "attributeBlocks": [],
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Mixin",
+            "line": 25,
+            "column": 3,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json",
+            "name": "list",
+            "attrs": [],
+            "attributeBlocks": [],
+            "args": "",
+            "call": true
+          },
+          {
+            "type": "Mixin",
+            "line": 26,
+            "column": 3,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json",
+            "name": "list",
+            "attrs": [],
+            "attributeBlocks": [],
+            "args": "",
+            "call": true
+          }
+        ],
+        "line": 24,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json"
+      },
+      "isInline": false
+    },
+    {
+      "type": "Mixin",
+      "line": 28,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json",
+      "name": "foobar",
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "line": 29,
+            "column": 3,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json",
+            "name": "div",
+            "selfClosing": false,
+            "attrs": [
+              {
+                "line": 29,
+                "column": 6,
+                "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json",
+                "val": "'interpolation'",
+                "name": "id",
+                "mustEscape": false
+              }
+            ],
+            "attributeBlocks": [],
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Code",
+                  "line": 29,
+                  "column": 20,
+                  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json",
+                  "val": "str + 'interpolated'",
+                  "buffer": true,
+                  "mustEscape": true,
+                  "isInline": true
+                }
+              ],
+              "line": 29,
+              "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json"
+            },
+            "isInline": false
+          }
+        ],
+        "line": 29,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json"
+      },
+      "args": "str",
+      "call": false
+    },
+    {
+      "type": "Code",
+      "line": 31,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json",
+      "val": "var suffix = \"bar\"",
+      "buffer": false,
+      "mustEscape": false,
+      "isInline": false
+    },
+    {
+      "type": "Mixin",
+      "line": 32,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json",
+      "name": "#{'foo' + suffix}",
+      "attrs": [],
+      "attributeBlocks": [],
+      "args": "'This is '",
+      "call": true
+    }
+  ],
+  "line": 0,
+  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.tokens.json"
+}

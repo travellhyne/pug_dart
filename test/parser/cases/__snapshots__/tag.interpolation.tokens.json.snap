@@ -1,0 +1,388 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Code",
+      "line": 2,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/tag.interpolation.tokens.json",
+      "val": "var tag = 'p'",
+      "buffer": false,
+      "mustEscape": false,
+      "isInline": false
+    },
+    {
+      "type": "Code",
+      "line": 3,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/tag.interpolation.tokens.json",
+      "val": "var foo = 'bar'",
+      "buffer": false,
+      "mustEscape": false,
+      "isInline": false
+    },
+    {
+      "type": "InterpolatedTag",
+      "line": 5,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/tag.interpolation.tokens.json",
+      "expr": "tag",
+      "selfClosing": false,
+      "attrs": [],
+      "attributeBlocks": [],
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Text",
+            "line": 5,
+            "column": 8,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/tag.interpolation.tokens.json",
+            "val": "value",
+            "isHtml": false
+          }
+        ],
+        "line": 5,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/tag.interpolation.tokens.json"
+      },
+      "isInline": false
+    },
+    {
+      "type": "InterpolatedTag",
+      "line": 6,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/tag.interpolation.tokens.json",
+      "expr": "tag",
+      "selfClosing": false,
+      "attrs": [
+        {
+          "line": 6,
+          "column": 8,
+          "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/tag.interpolation.tokens.json",
+          "val": "'bar'",
+          "name": "foo",
+          "mustEscape": true
+        }
+      ],
+      "attributeBlocks": [],
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Text",
+            "line": 6,
+            "column": 19,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/tag.interpolation.tokens.json",
+            "val": "value",
+            "isHtml": false
+          }
+        ],
+        "line": 6,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/tag.interpolation.tokens.json"
+      },
+      "isInline": false
+    },
+    {
+      "type": "InterpolatedTag",
+      "line": 7,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/tag.interpolation.tokens.json",
+      "expr": "foo ? 'a' : 'li'",
+      "selfClosing": false,
+      "attrs": [
+        {
+          "line": 7,
+          "column": 21,
+          "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/tag.interpolation.tokens.json",
+          "val": true,
+          "name": "something",
+          "mustEscape": true
+        }
+      ],
+      "attributeBlocks": [],
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Text",
+            "line": 7,
+            "column": 32,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/tag.interpolation.tokens.json",
+            "val": "here",
+            "isHtml": false
+          }
+        ],
+        "line": 7,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/tag.interpolation.tokens.json"
+      },
+      "isInline": false
+    },
+    {
+      "type": "Mixin",
+      "line": 9,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/tag.interpolation.tokens.json",
+      "name": "item",
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "line": 10,
+            "column": 3,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/tag.interpolation.tokens.json",
+            "name": "li",
+            "selfClosing": false,
+            "attrs": [],
+            "attributeBlocks": [],
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Conditional",
+                  "line": 11,
+                  "column": 5,
+                  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/tag.interpolation.tokens.json",
+                  "test": "attributes.href",
+                  "consequent": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "Tag",
+                        "line": 12,
+                        "column": 7,
+                        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/tag.interpolation.tokens.json",
+                        "name": "a",
+                        "selfClosing": false,
+                        "attrs": [],
+                        "attributeBlocks": [
+                          {
+                            "type": "AttributeBlock",
+                            "line": 12,
+                            "column": 8,
+                            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/tag.interpolation.tokens.json",
+                            "val": "attributes"
+                          }
+                        ],
+                        "block": {
+                          "type": "Block",
+                          "nodes": [
+                            {
+                              "type": "Tag",
+                              "line": 13,
+                              "column": 9,
+                              "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/tag.interpolation.tokens.json",
+                              "name": "img",
+                              "selfClosing": false,
+                              "attrs": [
+                                {
+                                  "line": 13,
+                                  "column": 12,
+                                  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/tag.interpolation.tokens.json",
+                                  "val": "'icon'",
+                                  "name": "class",
+                                  "mustEscape": false
+                                },
+                                {
+                                  "line": 13,
+                                  "column": 18,
+                                  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/tag.interpolation.tokens.json",
+                                  "val": "icon",
+                                  "name": "src",
+                                  "mustEscape": true
+                                }
+                              ],
+                              "attributeBlocks": [],
+                              "block": {
+                                "type": "Block",
+                                "nodes": [],
+                                "line": 13,
+                                "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/tag.interpolation.tokens.json"
+                              },
+                              "isInline": true
+                            },
+                            {
+                              "type": "MixinBlock",
+                              "line": 14,
+                              "column": 9,
+                              "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/tag.interpolation.tokens.json"
+                            }
+                          ],
+                          "line": 12,
+                          "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/tag.interpolation.tokens.json"
+                        },
+                        "isInline": true
+                      }
+                    ],
+                    "line": 12,
+                    "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/tag.interpolation.tokens.json"
+                  },
+                  "alternate": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "Tag",
+                        "line": 16,
+                        "column": 7,
+                        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/tag.interpolation.tokens.json",
+                        "name": "span",
+                        "selfClosing": false,
+                        "attrs": [],
+                        "attributeBlocks": [
+                          {
+                            "type": "AttributeBlock",
+                            "line": 16,
+                            "column": 11,
+                            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/tag.interpolation.tokens.json",
+                            "val": "attributes"
+                          }
+                        ],
+                        "block": {
+                          "type": "Block",
+                          "nodes": [
+                            {
+                              "type": "Tag",
+                              "line": 17,
+                              "column": 9,
+                              "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/tag.interpolation.tokens.json",
+                              "name": "img",
+                              "selfClosing": false,
+                              "attrs": [
+                                {
+                                  "line": 17,
+                                  "column": 12,
+                                  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/tag.interpolation.tokens.json",
+                                  "val": "'icon'",
+                                  "name": "class",
+                                  "mustEscape": false
+                                },
+                                {
+                                  "line": 17,
+                                  "column": 18,
+                                  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/tag.interpolation.tokens.json",
+                                  "val": "icon",
+                                  "name": "src",
+                                  "mustEscape": true
+                                }
+                              ],
+                              "attributeBlocks": [],
+                              "block": {
+                                "type": "Block",
+                                "nodes": [],
+                                "line": 17,
+                                "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/tag.interpolation.tokens.json"
+                              },
+                              "isInline": true
+                            },
+                            {
+                              "type": "MixinBlock",
+                              "line": 18,
+                              "column": 9,
+                              "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/tag.interpolation.tokens.json"
+                            }
+                          ],
+                          "line": 16,
+                          "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/tag.interpolation.tokens.json"
+                        },
+                        "isInline": true
+                      }
+                    ],
+                    "line": 16,
+                    "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/tag.interpolation.tokens.json"
+                  }
+                }
+              ],
+              "line": 10,
+              "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/tag.interpolation.tokens.json"
+            },
+            "isInline": false
+          }
+        ],
+        "line": 10,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/tag.interpolation.tokens.json"
+      },
+      "args": "icon",
+      "call": false
+    },
+    {
+      "type": "Tag",
+      "line": 20,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/tag.interpolation.tokens.json",
+      "name": "ul",
+      "selfClosing": false,
+      "attrs": [],
+      "attributeBlocks": [],
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Mixin",
+            "line": 21,
+            "column": 3,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/tag.interpolation.tokens.json",
+            "name": "item",
+            "attrs": [],
+            "attributeBlocks": [],
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Text",
+                  "line": 21,
+                  "column": 20,
+                  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/tag.interpolation.tokens.json",
+                  "val": "Contact",
+                  "isHtml": false
+                }
+              ],
+              "line": 21,
+              "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/tag.interpolation.tokens.json"
+            },
+            "args": "'contact'",
+            "call": true
+          },
+          {
+            "type": "Mixin",
+            "line": 22,
+            "column": 3,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/tag.interpolation.tokens.json",
+            "name": "item",
+            "attrs": [
+              {
+                "line": 22,
+                "column": 9,
+                "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/tag.interpolation.tokens.json",
+                "val": "'/contact'",
+                "name": "href",
+                "mustEscape": true
+              }
+            ],
+            "attributeBlocks": [],
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Text",
+                  "line": 22,
+                  "column": 26,
+                  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/tag.interpolation.tokens.json",
+                  "val": "Contact",
+                  "isHtml": false
+                }
+              ],
+              "line": 22,
+              "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/tag.interpolation.tokens.json"
+            },
+            "call": true
+          }
+        ],
+        "line": 20,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/tag.interpolation.tokens.json"
+      },
+      "isInline": false
+    }
+  ],
+  "line": 0,
+  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/tag.interpolation.tokens.json"
+}

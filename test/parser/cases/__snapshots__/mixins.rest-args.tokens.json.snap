@@ -1,0 +1,95 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Mixin",
+      "line": 1,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.rest-args.tokens.json",
+      "name": "list",
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "InterpolatedTag",
+            "line": 2,
+            "column": 3,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.rest-args.tokens.json",
+            "expr": "tag",
+            "selfClosing": false,
+            "attrs": [],
+            "attributeBlocks": [],
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Each",
+                  "line": 3,
+                  "column": 5,
+                  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.rest-args.tokens.json",
+                  "obj": "items",
+                  "val": "item",
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "Tag",
+                        "line": 4,
+                        "column": 7,
+                        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.rest-args.tokens.json",
+                        "name": "li",
+                        "selfClosing": false,
+                        "attrs": [],
+                        "attributeBlocks": [],
+                        "block": {
+                          "type": "Block",
+                          "nodes": [
+                            {
+                              "type": "Code",
+                              "line": 4,
+                              "column": 9,
+                              "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.rest-args.tokens.json",
+                              "val": "item",
+                              "buffer": true,
+                              "mustEscape": true,
+                              "isInline": true
+                            }
+                          ],
+                          "line": 4,
+                          "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.rest-args.tokens.json"
+                        },
+                        "isInline": false
+                      }
+                    ],
+                    "line": 4,
+                    "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.rest-args.tokens.json"
+                  }
+                }
+              ],
+              "line": 2,
+              "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.rest-args.tokens.json"
+            },
+            "isInline": false
+          }
+        ],
+        "line": 2,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.rest-args.tokens.json"
+      },
+      "args": "tag, ...items",
+      "call": false
+    },
+    {
+      "type": "Mixin",
+      "line": 6,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.rest-args.tokens.json",
+      "name": "list",
+      "attrs": [],
+      "attributeBlocks": [],
+      "args": "'ul', 1, 2, 3, 4",
+      "call": true
+    }
+  ],
+  "line": 0,
+  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/mixins.rest-args.tokens.json"
+}

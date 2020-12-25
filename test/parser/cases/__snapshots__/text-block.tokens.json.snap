@@ -1,0 +1,127 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Tag",
+      "line": 2,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/text-block.tokens.json",
+      "name": "label",
+      "selfClosing": false,
+      "attrs": [],
+      "attributeBlocks": [],
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Text",
+            "line": 2,
+            "column": 7,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/text-block.tokens.json",
+            "val": "Username:",
+            "isHtml": false
+          },
+          {
+            "type": "Tag",
+            "line": 3,
+            "column": 3,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/text-block.tokens.json",
+            "name": "input",
+            "selfClosing": false,
+            "attrs": [
+              {
+                "line": 3,
+                "column": 9,
+                "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/text-block.tokens.json",
+                "val": "'text'",
+                "name": "type",
+                "mustEscape": true
+              },
+              {
+                "line": 3,
+                "column": 22,
+                "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/text-block.tokens.json",
+                "val": "'user[name]'",
+                "name": "name",
+                "mustEscape": true
+              }
+            ],
+            "attributeBlocks": [],
+            "block": {
+              "type": "Block",
+              "nodes": [],
+              "line": 3,
+              "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/text-block.tokens.json"
+            },
+            "isInline": false
+          }
+        ],
+        "line": 2,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/text-block.tokens.json"
+      },
+      "isInline": false
+    },
+    {
+      "type": "Tag",
+      "line": 5,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/text-block.tokens.json",
+      "name": "label",
+      "selfClosing": false,
+      "attrs": [],
+      "attributeBlocks": [],
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Text",
+            "line": 5,
+            "column": 7,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/text-block.tokens.json",
+            "val": "Password:",
+            "isHtml": false
+          },
+          {
+            "type": "Tag",
+            "line": 6,
+            "column": 3,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/text-block.tokens.json",
+            "name": "input",
+            "selfClosing": false,
+            "attrs": [
+              {
+                "line": 6,
+                "column": 9,
+                "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/text-block.tokens.json",
+                "val": "'text'",
+                "name": "type",
+                "mustEscape": true
+              },
+              {
+                "line": 6,
+                "column": 22,
+                "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/text-block.tokens.json",
+                "val": "'user[pass]'",
+                "name": "name",
+                "mustEscape": true
+              }
+            ],
+            "attributeBlocks": [],
+            "block": {
+              "type": "Block",
+              "nodes": [],
+              "line": 6,
+              "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/text-block.tokens.json"
+            },
+            "isInline": false
+          }
+        ],
+        "line": 5,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/text-block.tokens.json"
+      },
+      "isInline": false
+    }
+  ],
+  "line": 0,
+  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/text-block.tokens.json"
+}

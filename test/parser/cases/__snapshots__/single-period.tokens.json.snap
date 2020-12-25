@@ -1,0 +1,33 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Tag",
+      "line": 1,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/single-period.tokens.json",
+      "name": "span",
+      "selfClosing": false,
+      "attrs": [],
+      "attributeBlocks": [],
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Text",
+            "line": 1,
+            "column": 6,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/single-period.tokens.json",
+            "val": ".",
+            "isHtml": false
+          }
+        ],
+        "line": 1,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/single-period.tokens.json"
+      },
+      "isInline": true
+    }
+  ],
+  "line": 0,
+  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/single-period.tokens.json"
+}

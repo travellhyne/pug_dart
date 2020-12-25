@@ -1,0 +1,101 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Code",
+      "line": 2,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/interpolation.escape.tokens.json",
+      "val": "var id = 42;",
+      "buffer": false,
+      "mustEscape": false,
+      "isInline": false
+    },
+    {
+      "type": "Tag",
+      "line": 3,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/interpolation.escape.tokens.json",
+      "name": "foo",
+      "selfClosing": false,
+      "attrs": [],
+      "attributeBlocks": [],
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Text",
+            "line": 4,
+            "column": 5,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/interpolation.escape.tokens.json",
+            "val": "some",
+            "isHtml": false
+          },
+          {
+            "type": "Text",
+            "line": 5,
+            "column": 1,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/interpolation.escape.tokens.json",
+            "val": "\n",
+            "isHtml": false
+          },
+          {
+            "type": "Text",
+            "line": 5,
+            "column": 5,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/interpolation.escape.tokens.json",
+            "val": "#{text}",
+            "isHtml": false
+          },
+          {
+            "type": "Text",
+            "line": 6,
+            "column": 1,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/interpolation.escape.tokens.json",
+            "val": "\n",
+            "isHtml": false
+          },
+          {
+            "type": "Text",
+            "line": 6,
+            "column": 5,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/interpolation.escape.tokens.json",
+            "val": "here",
+            "isHtml": false
+          },
+          {
+            "type": "Text",
+            "line": 7,
+            "column": 1,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/interpolation.escape.tokens.json",
+            "val": "\n",
+            "isHtml": false
+          },
+          {
+            "type": "Text",
+            "line": 7,
+            "column": 5,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/interpolation.escape.tokens.json",
+            "val": "My ID ",
+            "isHtml": false
+          },
+          {
+            "type": "Code",
+            "line": 7,
+            "column": 11,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/interpolation.escape.tokens.json",
+            "val": "\"is {\" + id + \"}\"",
+            "buffer": true,
+            "mustEscape": true,
+            "isInline": true
+          }
+        ],
+        "line": 3,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/interpolation.escape.tokens.json"
+      },
+      "isInline": false
+    }
+  ],
+  "line": 0,
+  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/interpolation.escape.tokens.json"
+}

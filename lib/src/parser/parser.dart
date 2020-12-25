@@ -271,7 +271,7 @@ class Parser {
           break;
         default:
           var pluginResult = runPlugin('textTokens', nextTok, tags);
-          if (pluginResult) break;
+          if (pluginResult != null) break;
           break loop;
       }
       nextTok = peek();
@@ -447,7 +447,7 @@ class Parser {
           peek()
         );
       }
-      node.block = block();
+      node.block = this.block();
     }
 
     return node;

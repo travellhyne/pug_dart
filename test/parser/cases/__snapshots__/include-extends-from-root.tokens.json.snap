@@ -1,0 +1,20 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Include",
+      "line": 1,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/include-extends-from-root.tokens.json",
+      "file": {
+        "type": "FileReference",
+        "line": 1,
+        "column": 9,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/include-extends-from-root.tokens.json",
+        "path": "/auxiliary/extends-from-root.pug"
+      }
+    }
+  ],
+  "line": 0,
+  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/include-extends-from-root.tokens.json"
+}

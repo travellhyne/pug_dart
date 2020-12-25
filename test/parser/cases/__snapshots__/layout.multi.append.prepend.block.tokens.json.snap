@@ -1,0 +1,304 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Extends",
+      "line": 1,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/layout.multi.append.prepend.block.tokens.json",
+      "file": {
+        "type": "FileReference",
+        "line": 1,
+        "column": 9,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/layout.multi.append.prepend.block.tokens.json",
+        "path": "../fixtures/multi-append-prepend-block/redefine.pug"
+      }
+    },
+    {
+      "type": "NamedBlock",
+      "nodes": [
+        {
+          "type": "Tag",
+          "line": 4,
+          "column": 2,
+          "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/layout.multi.append.prepend.block.tokens.json",
+          "name": "p",
+          "selfClosing": false,
+          "attrs": [
+            {
+              "line": 4,
+              "column": 3,
+              "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/layout.multi.append.prepend.block.tokens.json",
+              "val": "'first'",
+              "name": "class",
+              "mustEscape": false
+            },
+            {
+              "line": 4,
+              "column": 9,
+              "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/layout.multi.append.prepend.block.tokens.json",
+              "val": "'append'",
+              "name": "class",
+              "mustEscape": false
+            }
+          ],
+          "attributeBlocks": [],
+          "block": {
+            "type": "Block",
+            "nodes": [
+              {
+                "type": "Text",
+                "line": 4,
+                "column": 17,
+                "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/layout.multi.append.prepend.block.tokens.json",
+                "val": "Something appended to content",
+                "isHtml": false
+              }
+            ],
+            "line": 4,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/layout.multi.append.prepend.block.tokens.json"
+          },
+          "isInline": false
+        }
+      ],
+      "line": 3,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/layout.multi.append.prepend.block.tokens.json",
+      "mode": "append",
+      "name": "content"
+    },
+    {
+      "type": "NamedBlock",
+      "nodes": [
+        {
+          "type": "Tag",
+          "line": 7,
+          "column": 2,
+          "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/layout.multi.append.prepend.block.tokens.json",
+          "name": "p",
+          "selfClosing": false,
+          "attrs": [
+            {
+              "line": 7,
+              "column": 3,
+              "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/layout.multi.append.prepend.block.tokens.json",
+              "val": "'first'",
+              "name": "class",
+              "mustEscape": false
+            },
+            {
+              "line": 7,
+              "column": 9,
+              "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/layout.multi.append.prepend.block.tokens.json",
+              "val": "'prepend'",
+              "name": "class",
+              "mustEscape": false
+            }
+          ],
+          "attributeBlocks": [],
+          "block": {
+            "type": "Block",
+            "nodes": [
+              {
+                "type": "Text",
+                "line": 7,
+                "column": 18,
+                "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/layout.multi.append.prepend.block.tokens.json",
+                "val": "Something prepended to content",
+                "isHtml": false
+              }
+            ],
+            "line": 7,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/layout.multi.append.prepend.block.tokens.json"
+          },
+          "isInline": false
+        }
+      ],
+      "line": 6,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/layout.multi.append.prepend.block.tokens.json",
+      "mode": "prepend",
+      "name": "content"
+    },
+    {
+      "type": "NamedBlock",
+      "nodes": [
+        {
+          "type": "Tag",
+          "line": 10,
+          "column": 2,
+          "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/layout.multi.append.prepend.block.tokens.json",
+          "name": "p",
+          "selfClosing": false,
+          "attrs": [
+            {
+              "line": 10,
+              "column": 3,
+              "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/layout.multi.append.prepend.block.tokens.json",
+              "val": "'last'",
+              "name": "class",
+              "mustEscape": false
+            },
+            {
+              "line": 10,
+              "column": 8,
+              "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/layout.multi.append.prepend.block.tokens.json",
+              "val": "'append'",
+              "name": "class",
+              "mustEscape": false
+            }
+          ],
+          "attributeBlocks": [],
+          "block": {
+            "type": "Block",
+            "nodes": [
+              {
+                "type": "Text",
+                "line": 10,
+                "column": 16,
+                "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/layout.multi.append.prepend.block.tokens.json",
+                "val": "Last append must be most last",
+                "isHtml": false
+              }
+            ],
+            "line": 10,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/layout.multi.append.prepend.block.tokens.json"
+          },
+          "isInline": false
+        }
+      ],
+      "line": 9,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/layout.multi.append.prepend.block.tokens.json",
+      "mode": "append",
+      "name": "content"
+    },
+    {
+      "type": "NamedBlock",
+      "nodes": [
+        {
+          "type": "Tag",
+          "line": 13,
+          "column": 2,
+          "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/layout.multi.append.prepend.block.tokens.json",
+          "name": "p",
+          "selfClosing": false,
+          "attrs": [
+            {
+              "line": 13,
+              "column": 3,
+              "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/layout.multi.append.prepend.block.tokens.json",
+              "val": "'last'",
+              "name": "class",
+              "mustEscape": false
+            },
+            {
+              "line": 13,
+              "column": 8,
+              "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/layout.multi.append.prepend.block.tokens.json",
+              "val": "'prepend'",
+              "name": "class",
+              "mustEscape": false
+            }
+          ],
+          "attributeBlocks": [],
+          "block": {
+            "type": "Block",
+            "nodes": [
+              {
+                "type": "Text",
+                "line": 13,
+                "column": 17,
+                "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/layout.multi.append.prepend.block.tokens.json",
+                "val": "Last prepend must appear at top",
+                "isHtml": false
+              }
+            ],
+            "line": 13,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/layout.multi.append.prepend.block.tokens.json"
+          },
+          "isInline": false
+        }
+      ],
+      "line": 12,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/layout.multi.append.prepend.block.tokens.json",
+      "mode": "prepend",
+      "name": "content"
+    },
+    {
+      "type": "NamedBlock",
+      "nodes": [
+        {
+          "type": "Tag",
+          "line": 16,
+          "column": 2,
+          "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/layout.multi.append.prepend.block.tokens.json",
+          "name": "script",
+          "selfClosing": false,
+          "attrs": [
+            {
+              "line": 16,
+              "column": 9,
+              "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/layout.multi.append.prepend.block.tokens.json",
+              "val": "'jquery.js'",
+              "name": "src",
+              "mustEscape": true
+            }
+          ],
+          "attributeBlocks": [],
+          "block": {
+            "type": "Block",
+            "nodes": [],
+            "line": 16,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/layout.multi.append.prepend.block.tokens.json"
+          },
+          "isInline": false
+        }
+      ],
+      "line": 15,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/layout.multi.append.prepend.block.tokens.json",
+      "mode": "append",
+      "name": "head"
+    },
+    {
+      "type": "NamedBlock",
+      "nodes": [
+        {
+          "type": "Tag",
+          "line": 19,
+          "column": 2,
+          "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/layout.multi.append.prepend.block.tokens.json",
+          "name": "script",
+          "selfClosing": false,
+          "attrs": [
+            {
+              "line": 19,
+              "column": 9,
+              "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/layout.multi.append.prepend.block.tokens.json",
+              "val": "'foo.js'",
+              "name": "src",
+              "mustEscape": true
+            }
+          ],
+          "attributeBlocks": [],
+          "block": {
+            "type": "Block",
+            "nodes": [],
+            "line": 19,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/layout.multi.append.prepend.block.tokens.json"
+          },
+          "isInline": false
+        }
+      ],
+      "line": 18,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/layout.multi.append.prepend.block.tokens.json",
+      "mode": "prepend",
+      "name": "head"
+    }
+  ],
+  "line": 0,
+  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/layout.multi.append.prepend.block.tokens.json"
+}

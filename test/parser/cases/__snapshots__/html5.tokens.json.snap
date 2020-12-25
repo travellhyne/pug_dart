@@ -1,0 +1,116 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Doctype",
+      "line": 1,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/html5.tokens.json",
+      "val": "html"
+    },
+    {
+      "type": "Tag",
+      "line": 2,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/html5.tokens.json",
+      "name": "input",
+      "selfClosing": false,
+      "attrs": [
+        {
+          "line": 2,
+          "column": 7,
+          "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/html5.tokens.json",
+          "val": "'checkbox'",
+          "name": "type",
+          "mustEscape": true
+        },
+        {
+          "line": 2,
+          "column": 24,
+          "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/html5.tokens.json",
+          "val": true,
+          "name": "checked",
+          "mustEscape": true
+        }
+      ],
+      "attributeBlocks": [],
+      "block": {
+        "type": "Block",
+        "nodes": [],
+        "line": 2,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/html5.tokens.json"
+      },
+      "isInline": false
+    },
+    {
+      "type": "Tag",
+      "line": 3,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/html5.tokens.json",
+      "name": "input",
+      "selfClosing": false,
+      "attrs": [
+        {
+          "line": 3,
+          "column": 7,
+          "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/html5.tokens.json",
+          "val": "'checkbox'",
+          "name": "type",
+          "mustEscape": true
+        },
+        {
+          "line": 3,
+          "column": 24,
+          "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/html5.tokens.json",
+          "val": "true",
+          "name": "checked",
+          "mustEscape": true
+        }
+      ],
+      "attributeBlocks": [],
+      "block": {
+        "type": "Block",
+        "nodes": [],
+        "line": 3,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/html5.tokens.json"
+      },
+      "isInline": false
+    },
+    {
+      "type": "Tag",
+      "line": 4,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/html5.tokens.json",
+      "name": "input",
+      "selfClosing": false,
+      "attrs": [
+        {
+          "line": 4,
+          "column": 7,
+          "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/html5.tokens.json",
+          "val": "'checkbox'",
+          "name": "type",
+          "mustEscape": true
+        },
+        {
+          "line": 4,
+          "column": 24,
+          "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/html5.tokens.json",
+          "val": "false",
+          "name": "checked",
+          "mustEscape": true
+        }
+      ],
+      "attributeBlocks": [],
+      "block": {
+        "type": "Block",
+        "nodes": [],
+        "line": 4,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/html5.tokens.json"
+      },
+      "isInline": false
+    }
+  ],
+  "line": 0,
+  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/html5.tokens.json"
+}

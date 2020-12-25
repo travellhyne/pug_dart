@@ -1,0 +1,51 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Code",
+      "line": 1,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/attr-es2015.tokens.json",
+      "val": "var avatar = '219b77f9d21de75e81851b6b886057c7'",
+      "buffer": false,
+      "mustEscape": false,
+      "isInline": false
+    },
+    {
+      "type": "Tag",
+      "line": 3,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/attr-es2015.tokens.json",
+      "name": "div",
+      "selfClosing": false,
+      "attrs": [
+        {
+          "line": 3,
+          "column": 4,
+          "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/attr-es2015.tokens.json",
+          "val": "'avatar-div'",
+          "name": "class",
+          "mustEscape": false
+        },
+        {
+          "line": 3,
+          "column": 16,
+          "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/attr-es2015.tokens.json",
+          "val": "`background-image: url(https://www.gravatar.com/avatar/${avatar})`",
+          "name": "style",
+          "mustEscape": true
+        }
+      ],
+      "attributeBlocks": [],
+      "block": {
+        "type": "Block",
+        "nodes": [],
+        "line": 3,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/attr-es2015.tokens.json"
+      },
+      "isInline": false
+    }
+  ],
+  "line": 0,
+  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/attr-es2015.tokens.json"
+}

@@ -1,0 +1,84 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Code",
+      "line": 1,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/filters-empty.tokens.json",
+      "val": "var users = [{ name: 'tobi', age: 2 }]",
+      "buffer": false,
+      "mustEscape": false,
+      "isInline": false
+    },
+    {
+      "type": "Tag",
+      "line": 3,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/filters-empty.tokens.json",
+      "name": "fb:users",
+      "selfClosing": false,
+      "attrs": [],
+      "attributeBlocks": [],
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Each",
+            "line": 4,
+            "column": 3,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/filters-empty.tokens.json",
+            "obj": "users",
+            "val": "user",
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Tag",
+                  "line": 5,
+                  "column": 5,
+                  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/filters-empty.tokens.json",
+                  "name": "fb:user",
+                  "selfClosing": false,
+                  "attrs": [
+                    {
+                      "line": 5,
+                      "column": 13,
+                      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/filters-empty.tokens.json",
+                      "val": "user.age",
+                      "name": "age",
+                      "mustEscape": true
+                    }
+                  ],
+                  "attributeBlocks": [],
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "Filter",
+                        "line": 6,
+                        "column": 7,
+                        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/filters-empty.tokens.json",
+                        "name": "cdata"
+                      }
+                    ],
+                    "line": 5,
+                    "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/filters-empty.tokens.json"
+                  },
+                  "isInline": false
+                }
+              ],
+              "line": 5,
+              "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/filters-empty.tokens.json"
+            }
+          }
+        ],
+        "line": 3,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/filters-empty.tokens.json"
+      },
+      "isInline": false
+    }
+  ],
+  "line": 0,
+  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/filters-empty.tokens.json"
+}

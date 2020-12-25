@@ -1,0 +1,109 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "BlockComment",
+      "line": 1,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/comments.source.tokens.json",
+      "val": "",
+      "buffer": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Text",
+            "line": 2,
+            "column": 3,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/comments.source.tokens.json",
+            "val": "s/s.",
+            "isHtml": false
+          },
+          {
+            "type": "Text",
+            "line": 3,
+            "column": 1,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/comments.source.tokens.json",
+            "val": "\n",
+            "isHtml": false
+          },
+          {
+            "type": "Text",
+            "line": 3,
+            "column": 1,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/comments.source.tokens.json",
+            "val": "",
+            "isHtml": false
+          }
+        ],
+        "line": 1,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/comments.source.tokens.json"
+      }
+    },
+    {
+      "type": "Comment",
+      "line": 4,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/comments.source.tokens.json",
+      "val": " test/cases/comments.source.pug",
+      "buffer": false
+    },
+    {
+      "type": "BlockComment",
+      "line": 6,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/comments.source.tokens.json",
+      "val": "",
+      "buffer": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Text",
+            "line": 7,
+            "column": 3,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/comments.source.tokens.json",
+            "val": "test/cases/comments.source.pug",
+            "isHtml": false
+          },
+          {
+            "type": "Text",
+            "line": 8,
+            "column": 1,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/comments.source.tokens.json",
+            "val": "\n",
+            "isHtml": false
+          },
+          {
+            "type": "Text",
+            "line": 8,
+            "column": 3,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/comments.source.tokens.json",
+            "val": "when",
+            "isHtml": false
+          },
+          {
+            "type": "Text",
+            "line": 9,
+            "column": 1,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/comments.source.tokens.json",
+            "val": "\n",
+            "isHtml": false
+          },
+          {
+            "type": "Text",
+            "line": 9,
+            "column": 3,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/comments.source.tokens.json",
+            "val": "()",
+            "isHtml": false
+          }
+        ],
+        "line": 6,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/comments.source.tokens.json"
+      }
+    }
+  ],
+  "line": 0,
+  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/comments.source.tokens.json"
+}

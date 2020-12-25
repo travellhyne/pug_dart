@@ -1,0 +1,14 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Doctype",
+      "line": 1,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/doctype.custom.tokens.json",
+      "val": "custom stuff"
+    }
+  ],
+  "line": 0,
+  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/doctype.custom.tokens.json"
+}

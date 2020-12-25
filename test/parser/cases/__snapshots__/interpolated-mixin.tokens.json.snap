@@ -1,0 +1,105 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Mixin",
+      "line": 1,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/interpolated-mixin.tokens.json",
+      "name": "linkit",
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "line": 2,
+            "column": 3,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/interpolated-mixin.tokens.json",
+            "name": "a",
+            "selfClosing": false,
+            "attrs": [
+              {
+                "line": 2,
+                "column": 5,
+                "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/interpolated-mixin.tokens.json",
+                "val": "url",
+                "name": "href",
+                "mustEscape": true
+              }
+            ],
+            "attributeBlocks": [],
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Code",
+                  "line": 2,
+                  "column": 14,
+                  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/interpolated-mixin.tokens.json",
+                  "val": "url",
+                  "buffer": true,
+                  "mustEscape": true,
+                  "isInline": true
+                }
+              ],
+              "line": 2,
+              "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/interpolated-mixin.tokens.json"
+            },
+            "isInline": true
+          }
+        ],
+        "line": 2,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/interpolated-mixin.tokens.json"
+      },
+      "args": "url",
+      "call": false
+    },
+    {
+      "type": "Tag",
+      "line": 4,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/interpolated-mixin.tokens.json",
+      "name": "p",
+      "selfClosing": false,
+      "attrs": [],
+      "attributeBlocks": [],
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Text",
+            "line": 4,
+            "column": 3,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/interpolated-mixin.tokens.json",
+            "val": "This also works ",
+            "isHtml": false
+          },
+          {
+            "type": "Mixin",
+            "line": 4,
+            "column": 21,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/interpolated-mixin.tokens.json",
+            "name": "linkit",
+            "attrs": [],
+            "attributeBlocks": [],
+            "args": "'http://www.bing.com'",
+            "call": true
+          },
+          {
+            "type": "Text",
+            "line": 4,
+            "column": 52,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/interpolated-mixin.tokens.json",
+            "val": " so hurrah for Pug",
+            "isHtml": false
+          }
+        ],
+        "line": 4,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/interpolated-mixin.tokens.json"
+      },
+      "isInline": false
+    }
+  ],
+  "line": 0,
+  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/interpolated-mixin.tokens.json"
+}

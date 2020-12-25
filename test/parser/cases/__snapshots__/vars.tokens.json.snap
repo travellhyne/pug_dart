@@ -1,0 +1,61 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Code",
+      "line": 1,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/vars.tokens.json",
+      "val": "var foo = 'bar'",
+      "buffer": false,
+      "mustEscape": false,
+      "isInline": false
+    },
+    {
+      "type": "Code",
+      "line": 2,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/vars.tokens.json",
+      "val": "var list = [1,2,3]",
+      "buffer": false,
+      "mustEscape": false,
+      "isInline": false
+    },
+    {
+      "type": "Tag",
+      "line": 3,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/vars.tokens.json",
+      "name": "a",
+      "selfClosing": false,
+      "attrs": [
+        {
+          "line": 3,
+          "column": 3,
+          "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/vars.tokens.json",
+          "val": "list",
+          "name": "class",
+          "mustEscape": true
+        },
+        {
+          "line": 3,
+          "column": 15,
+          "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/vars.tokens.json",
+          "val": "foo",
+          "name": "id",
+          "mustEscape": true
+        }
+      ],
+      "attributeBlocks": [],
+      "block": {
+        "type": "Block",
+        "nodes": [],
+        "line": 3,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/vars.tokens.json"
+      },
+      "isInline": true
+    }
+  ],
+  "line": 0,
+  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/vars.tokens.json"
+}

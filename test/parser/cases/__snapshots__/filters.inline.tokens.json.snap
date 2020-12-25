@@ -1,0 +1,48 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Tag",
+      "line": 1,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/filters.inline.tokens.json",
+      "name": "p",
+      "selfClosing": false,
+      "attrs": [],
+      "attributeBlocks": [],
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Text",
+            "line": 1,
+            "column": 3,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/filters.inline.tokens.json",
+            "val": "before ",
+            "isHtml": false
+          },
+          {
+            "type": "Filter",
+            "line": 1,
+            "column": 12,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/filters.inline.tokens.json",
+            "name": "cdata"
+          },
+          {
+            "type": "Text",
+            "line": 1,
+            "column": 26,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/filters.inline.tokens.json",
+            "val": " after",
+            "isHtml": false
+          }
+        ],
+        "line": 1,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/filters.inline.tokens.json"
+      },
+      "isInline": false
+    }
+  ],
+  "line": 0,
+  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/filters.inline.tokens.json"
+}

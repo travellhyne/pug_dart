@@ -1,0 +1,446 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Tag",
+      "line": 1,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json",
+      "name": "html",
+      "selfClosing": false,
+      "attrs": [],
+      "attributeBlocks": [],
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "line": 2,
+            "column": 3,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json",
+            "name": "body",
+            "selfClosing": false,
+            "attrs": [],
+            "attributeBlocks": [],
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Code",
+                  "line": 3,
+                  "column": 5,
+                  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json",
+                  "val": "var friends = 1",
+                  "buffer": false,
+                  "mustEscape": false,
+                  "isInline": false
+                },
+                {
+                  "type": "Case",
+                  "line": 4,
+                  "column": 5,
+                  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json",
+                  "expr": "friends",
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "When",
+                        "line": 5,
+                        "column": 7,
+                        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json",
+                        "expr": "0",
+                        "block": {
+                          "type": "Block",
+                          "nodes": [
+                            {
+                              "type": "Tag",
+                              "line": 5,
+                              "column": 15,
+                              "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json",
+                              "name": "p",
+                              "selfClosing": false,
+                              "attrs": [],
+                              "attributeBlocks": [],
+                              "block": {
+                                "type": "Block",
+                                "nodes": [
+                                  {
+                                    "type": "Text",
+                                    "line": 5,
+                                    "column": 17,
+                                    "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json",
+                                    "val": "you have no friends",
+                                    "isHtml": false
+                                  }
+                                ],
+                                "line": 5,
+                                "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json"
+                              },
+                              "isInline": false
+                            }
+                          ],
+                          "line": 5,
+                          "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json"
+                        },
+                        "debug": false
+                      },
+                      {
+                        "type": "When",
+                        "line": 6,
+                        "column": 7,
+                        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json",
+                        "expr": "1",
+                        "block": {
+                          "type": "Block",
+                          "nodes": [
+                            {
+                              "type": "Tag",
+                              "line": 6,
+                              "column": 15,
+                              "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json",
+                              "name": "p",
+                              "selfClosing": false,
+                              "attrs": [],
+                              "attributeBlocks": [],
+                              "block": {
+                                "type": "Block",
+                                "nodes": [
+                                  {
+                                    "type": "Text",
+                                    "line": 6,
+                                    "column": 17,
+                                    "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json",
+                                    "val": "you have a friend",
+                                    "isHtml": false
+                                  }
+                                ],
+                                "line": 6,
+                                "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json"
+                              },
+                              "isInline": false
+                            }
+                          ],
+                          "line": 6,
+                          "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json"
+                        },
+                        "debug": false
+                      },
+                      {
+                        "type": "When",
+                        "line": 7,
+                        "column": 7,
+                        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json",
+                        "expr": "default",
+                        "block": {
+                          "type": "Block",
+                          "nodes": [
+                            {
+                              "type": "Tag",
+                              "line": 7,
+                              "column": 16,
+                              "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json",
+                              "name": "p",
+                              "selfClosing": false,
+                              "attrs": [],
+                              "attributeBlocks": [],
+                              "block": {
+                                "type": "Block",
+                                "nodes": [
+                                  {
+                                    "type": "Text",
+                                    "line": 7,
+                                    "column": 18,
+                                    "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json",
+                                    "val": "you have ",
+                                    "isHtml": false
+                                  },
+                                  {
+                                    "type": "Code",
+                                    "line": 7,
+                                    "column": 27,
+                                    "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json",
+                                    "val": "friends",
+                                    "buffer": true,
+                                    "mustEscape": true,
+                                    "isInline": true
+                                  },
+                                  {
+                                    "type": "Text",
+                                    "line": 7,
+                                    "column": 37,
+                                    "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json",
+                                    "val": " friends",
+                                    "isHtml": false
+                                  }
+                                ],
+                                "line": 7,
+                                "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json"
+                              },
+                              "isInline": false
+                            }
+                          ],
+                          "line": 7,
+                          "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json"
+                        },
+                        "debug": false
+                      }
+                    ],
+                    "line": 5,
+                    "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json"
+                  }
+                },
+                {
+                  "type": "Code",
+                  "line": 8,
+                  "column": 5,
+                  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json",
+                  "val": "var friends = 0",
+                  "buffer": false,
+                  "mustEscape": false,
+                  "isInline": false
+                },
+                {
+                  "type": "Case",
+                  "line": 9,
+                  "column": 5,
+                  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json",
+                  "expr": "friends",
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "When",
+                        "line": 10,
+                        "column": 7,
+                        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json",
+                        "expr": "0",
+                        "debug": false
+                      },
+                      {
+                        "type": "When",
+                        "line": 11,
+                        "column": 7,
+                        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json",
+                        "expr": "1",
+                        "block": {
+                          "type": "Block",
+                          "nodes": [
+                            {
+                              "type": "Tag",
+                              "line": 12,
+                              "column": 9,
+                              "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json",
+                              "name": "p",
+                              "selfClosing": false,
+                              "attrs": [],
+                              "attributeBlocks": [],
+                              "block": {
+                                "type": "Block",
+                                "nodes": [
+                                  {
+                                    "type": "Text",
+                                    "line": 12,
+                                    "column": 11,
+                                    "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json",
+                                    "val": "you have very few friends",
+                                    "isHtml": false
+                                  }
+                                ],
+                                "line": 12,
+                                "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json"
+                              },
+                              "isInline": false
+                            }
+                          ],
+                          "line": 12,
+                          "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json"
+                        },
+                        "debug": false
+                      },
+                      {
+                        "type": "When",
+                        "line": 13,
+                        "column": 7,
+                        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json",
+                        "expr": "default",
+                        "block": {
+                          "type": "Block",
+                          "nodes": [
+                            {
+                              "type": "Tag",
+                              "line": 14,
+                              "column": 9,
+                              "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json",
+                              "name": "p",
+                              "selfClosing": false,
+                              "attrs": [],
+                              "attributeBlocks": [],
+                              "block": {
+                                "type": "Block",
+                                "nodes": [
+                                  {
+                                    "type": "Text",
+                                    "line": 14,
+                                    "column": 11,
+                                    "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json",
+                                    "val": "you have ",
+                                    "isHtml": false
+                                  },
+                                  {
+                                    "type": "Code",
+                                    "line": 14,
+                                    "column": 20,
+                                    "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json",
+                                    "val": "friends",
+                                    "buffer": true,
+                                    "mustEscape": true,
+                                    "isInline": true
+                                  },
+                                  {
+                                    "type": "Text",
+                                    "line": 14,
+                                    "column": 30,
+                                    "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json",
+                                    "val": " friends",
+                                    "isHtml": false
+                                  }
+                                ],
+                                "line": 14,
+                                "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json"
+                              },
+                              "isInline": false
+                            }
+                          ],
+                          "line": 14,
+                          "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json"
+                        },
+                        "debug": false
+                      }
+                    ],
+                    "line": 10,
+                    "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json"
+                  }
+                },
+                {
+                  "type": "Code",
+                  "line": 16,
+                  "column": 5,
+                  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json",
+                  "val": "var friend = 'Tim:G'",
+                  "buffer": false,
+                  "mustEscape": false,
+                  "isInline": false
+                },
+                {
+                  "type": "Case",
+                  "line": 17,
+                  "column": 5,
+                  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json",
+                  "expr": "friend",
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "When",
+                        "line": 18,
+                        "column": 7,
+                        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json",
+                        "expr": "'Tim:G'",
+                        "block": {
+                          "type": "Block",
+                          "nodes": [
+                            {
+                              "type": "Tag",
+                              "line": 18,
+                              "column": 24,
+                              "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json",
+                              "name": "p",
+                              "selfClosing": false,
+                              "attrs": [],
+                              "attributeBlocks": [],
+                              "block": {
+                                "type": "Block",
+                                "nodes": [
+                                  {
+                                    "type": "Text",
+                                    "line": 18,
+                                    "column": 26,
+                                    "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json",
+                                    "val": "Friend is a string",
+                                    "isHtml": false
+                                  }
+                                ],
+                                "line": 18,
+                                "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json"
+                              },
+                              "isInline": false
+                            }
+                          ],
+                          "line": 18,
+                          "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json"
+                        },
+                        "debug": false
+                      },
+                      {
+                        "type": "When",
+                        "line": 19,
+                        "column": 7,
+                        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json",
+                        "expr": "{tim: 'g'}",
+                        "block": {
+                          "type": "Block",
+                          "nodes": [
+                            {
+                              "type": "Tag",
+                              "line": 19,
+                              "column": 24,
+                              "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json",
+                              "name": "p",
+                              "selfClosing": false,
+                              "attrs": [],
+                              "attributeBlocks": [],
+                              "block": {
+                                "type": "Block",
+                                "nodes": [
+                                  {
+                                    "type": "Text",
+                                    "line": 19,
+                                    "column": 26,
+                                    "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json",
+                                    "val": "Friend is an object",
+                                    "isHtml": false
+                                  }
+                                ],
+                                "line": 19,
+                                "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json"
+                              },
+                              "isInline": false
+                            }
+                          ],
+                          "line": 19,
+                          "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json"
+                        },
+                        "debug": false
+                      }
+                    ],
+                    "line": 18,
+                    "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json"
+                  }
+                }
+              ],
+              "line": 2,
+              "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json"
+            },
+            "isInline": false
+          }
+        ],
+        "line": 1,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json"
+      },
+      "isInline": false
+    }
+  ],
+  "line": 0,
+  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/case.tokens.json"
+}

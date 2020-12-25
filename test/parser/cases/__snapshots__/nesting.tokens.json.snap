@@ -1,0 +1,191 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Tag",
+      "line": 1,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/nesting.tokens.json",
+      "name": "ul",
+      "selfClosing": false,
+      "attrs": [],
+      "attributeBlocks": [],
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "line": 2,
+            "column": 3,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/nesting.tokens.json",
+            "name": "li",
+            "selfClosing": false,
+            "attrs": [],
+            "attributeBlocks": [],
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Text",
+                  "line": 2,
+                  "column": 6,
+                  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/nesting.tokens.json",
+                  "val": "a",
+                  "isHtml": false
+                }
+              ],
+              "line": 2,
+              "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/nesting.tokens.json"
+            },
+            "isInline": false
+          },
+          {
+            "type": "Tag",
+            "line": 3,
+            "column": 3,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/nesting.tokens.json",
+            "name": "li",
+            "selfClosing": false,
+            "attrs": [],
+            "attributeBlocks": [],
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Text",
+                  "line": 3,
+                  "column": 6,
+                  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/nesting.tokens.json",
+                  "val": "b",
+                  "isHtml": false
+                }
+              ],
+              "line": 3,
+              "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/nesting.tokens.json"
+            },
+            "isInline": false
+          },
+          {
+            "type": "Tag",
+            "line": 4,
+            "column": 3,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/nesting.tokens.json",
+            "name": "li",
+            "selfClosing": false,
+            "attrs": [],
+            "attributeBlocks": [],
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Tag",
+                  "line": 5,
+                  "column": 5,
+                  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/nesting.tokens.json",
+                  "name": "ul",
+                  "selfClosing": false,
+                  "attrs": [],
+                  "attributeBlocks": [],
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "Tag",
+                        "line": 6,
+                        "column": 9,
+                        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/nesting.tokens.json",
+                        "name": "li",
+                        "selfClosing": false,
+                        "attrs": [],
+                        "attributeBlocks": [],
+                        "block": {
+                          "type": "Block",
+                          "nodes": [
+                            {
+                              "type": "Text",
+                              "line": 6,
+                              "column": 12,
+                              "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/nesting.tokens.json",
+                              "val": "c",
+                              "isHtml": false
+                            }
+                          ],
+                          "line": 6,
+                          "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/nesting.tokens.json"
+                        },
+                        "isInline": false
+                      },
+                      {
+                        "type": "Tag",
+                        "line": 7,
+                        "column": 9,
+                        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/nesting.tokens.json",
+                        "name": "li",
+                        "selfClosing": false,
+                        "attrs": [],
+                        "attributeBlocks": [],
+                        "block": {
+                          "type": "Block",
+                          "nodes": [
+                            {
+                              "type": "Text",
+                              "line": 7,
+                              "column": 12,
+                              "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/nesting.tokens.json",
+                              "val": "d",
+                              "isHtml": false
+                            }
+                          ],
+                          "line": 7,
+                          "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/nesting.tokens.json"
+                        },
+                        "isInline": false
+                      }
+                    ],
+                    "line": 5,
+                    "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/nesting.tokens.json"
+                  },
+                  "isInline": false
+                }
+              ],
+              "line": 4,
+              "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/nesting.tokens.json"
+            },
+            "isInline": false
+          },
+          {
+            "type": "Tag",
+            "line": 8,
+            "column": 3,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/nesting.tokens.json",
+            "name": "li",
+            "selfClosing": false,
+            "attrs": [],
+            "attributeBlocks": [],
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Text",
+                  "line": 8,
+                  "column": 6,
+                  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/nesting.tokens.json",
+                  "val": "e",
+                  "isHtml": false
+                }
+              ],
+              "line": 8,
+              "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/nesting.tokens.json"
+            },
+            "isInline": false
+          }
+        ],
+        "line": 1,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/nesting.tokens.json"
+      },
+      "isInline": false
+    }
+  ],
+  "line": 0,
+  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/nesting.tokens.json"
+}

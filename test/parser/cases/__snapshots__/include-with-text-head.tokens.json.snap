@@ -1,0 +1,60 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Tag",
+      "line": 1,
+      "column": 1,
+      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/include-with-text-head.tokens.json",
+      "name": "head",
+      "selfClosing": false,
+      "attrs": [],
+      "attributeBlocks": [],
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "line": 2,
+            "column": 3,
+            "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/include-with-text-head.tokens.json",
+            "name": "script",
+            "selfClosing": false,
+            "attrs": [
+              {
+                "line": 2,
+                "column": 10,
+                "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/include-with-text-head.tokens.json",
+                "val": "'text/javascript'",
+                "name": "type",
+                "mustEscape": true
+              }
+            ],
+            "attributeBlocks": [],
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Text",
+                  "line": 3,
+                  "column": 5,
+                  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/include-with-text-head.tokens.json",
+                  "val": "alert('hello world');",
+                  "isHtml": false
+                }
+              ],
+              "line": 2,
+              "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/include-with-text-head.tokens.json"
+            },
+            "isInline": false
+          }
+        ],
+        "line": 1,
+        "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/include-with-text-head.tokens.json"
+      },
+      "isInline": false
+    }
+  ],
+  "line": 0,
+  "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/include-with-text-head.tokens.json"
+}
