@@ -5,8 +5,14 @@ import './token_stream.dart';
 import './node.dart';
 import './inline-tags.dart';
 
+Node parse(List<Token> tokens, [ParserOptions options]) {
+  var parser = Parser(tokens, options);
+  return parser.parse();
+}
+
 class Parser {
-  Parser(List<Token> tokens, [this.options]) {
+  Parser(List<Token> tokens, [ParserOptions options]) {
+    options ??= ParserOptions();
     this.tokens = TokenStream.fromIterable(tokens);
     filename = options.filename;
     src = options.src;
@@ -14,7 +20,7 @@ class Parser {
   }
 
   TokenStream tokens;
-  ParserOptions options = ParserOptions();
+  
   String filename;
   String src;
   int inMixin = 0;
@@ -99,7 +105,9 @@ class Parser {
 
   dynamic runPlugin(String context, Token tok, [List arguments]) {
     var rest = <dynamic>[this];
-    rest.addAll(arguments);
+    if (arguments != null) {
+      rest?.addAll(arguments);
+    }
 
     var pluginContext;
 
@@ -112,7 +120,7 @@ class Parser {
       }
     }
 
-    if (pluginContext) {
+    if (pluginContext != null) {
       return pluginContext[tok.type](rest);
     }
 
@@ -199,7 +207,7 @@ class Parser {
         return parseExpr();
       default:
         var pluginResult = runPlugin('expressionTokens', peek());
-        if (pluginResult) return pluginResult;
+        if (pluginResult != null) return pluginResult;
         error(
           'INVALID_TOKEN',
           'unexpected token "${peek().type}"',
@@ -413,6 +421,7 @@ class Parser {
   }
 
   Node parseCode([bool noBlock]) {
+    noBlock ??= false;
     var tok = expect('code');
 
     var node = Code()
@@ -952,7 +961,7 @@ class Parser {
             peek(),
             [tagNode, attributeNames]
           );
-          if (pluginResult) break;
+          if (pluginResult != null) break;
           break out;
       }
     }
@@ -1021,7 +1030,7 @@ class Parser {
     }
 
     // block?
-    if (tagNode.textOnly) {
+    if (tagNode?.textOnly ?? false) {
       tagNode.block = parseTextBlock() ?? emptyBlock(tagNode.line);
     } else if ('indent' == peek().type) {
       var blockNode = block();

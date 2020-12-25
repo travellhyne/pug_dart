@@ -6,10 +6,10 @@ import '../../pug_dart.dart';
 import '../utils/character_parser.dart' as character_parser;
 import '../utils/string.dart';
 
-List<Map<String, dynamic>> lex(String str, LexerOptions options) {
+List<Token> lex(String str, LexerOptions options) {
   final lexer = Lexer(str, options: options);
 
-  return lexer.getTokens().map((t) => t.toJSON()).toList();
+  return lexer.getTokens();
 }
 
 class Lexer {
@@ -233,8 +233,10 @@ class Lexer {
         'End of line was reached with no closing bracket for interpolation.'
       );
     }
-    for (var i = 0; i < indentStack.length; i++) {
-      tokens.add(tokEnd(tok('outdent')));
+    for (var indent in indentStack) {
+      if (indent != null && indent != 0) {
+        tokens.add(tokEnd(tok('outdent')));
+      }
     }
     tokens.add(tokEnd(tok('eos')));
     ended = true;
