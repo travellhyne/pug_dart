@@ -1565,9 +1565,12 @@ class Token {
   Token({
     this.type,
     this.loc,
+    this.filename,
+    this.val,
   });
 
   String type;
+  String filename;
   TokenLoc loc;
   dynamic val;
   bool buffer;
@@ -1592,7 +1595,8 @@ class Token {
       'code': code,
       'value': value,
       'name': name,
-    };
+      'filename': filename,
+    }..removeWhere((key, value) => key == null || value == null);
   }
 }
 
