@@ -131,20 +131,6 @@
     }
   },
   {
-    "type": "outdent",
-    "loc": {
-      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/blanks.pug",
-      "start": {
-        "line": 9,
-        "column": 1
-      },
-      "end": {
-        "line": 9,
-        "column": 1
-      }
-    }
-  },
-  {
     "type": "eos",
     "loc": {
       "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/blanks.pug",

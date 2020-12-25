@@ -208,20 +208,6 @@
     }
   },
   {
-    "type": "outdent",
-    "loc": {
-      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/classes-empty.pug",
-      "start": {
-        "line": 3,
-        "column": 19
-      },
-      "end": {
-        "line": 3,
-        "column": 19
-      }
-    }
-  },
-  {
     "type": "eos",
     "loc": {
       "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/classes-empty.pug",

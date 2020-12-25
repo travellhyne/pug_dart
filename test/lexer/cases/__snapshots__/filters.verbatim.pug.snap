@@ -145,20 +145,6 @@
     }
   },
   {
-    "type": "outdent",
-    "loc": {
-      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/filters.verbatim.pug",
-      "start": {
-        "line": 5,
-        "column": 5
-      },
-      "end": {
-        "line": 5,
-        "column": 5
-      }
-    }
-  },
-  {
     "type": "eos",
     "loc": {
       "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/filters.verbatim.pug",

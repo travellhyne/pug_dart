@@ -1560,20 +1560,6 @@
     "mustEscape": true
   },
   {
-    "type": "outdent",
-    "loc": {
-      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/mixin.blocks.pug",
-      "start": {
-        "line": 44,
-        "column": 14
-      },
-      "end": {
-        "line": 44,
-        "column": 14
-      }
-    }
-  },
-  {
     "type": "eos",
     "loc": {
       "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/mixin.blocks.pug",

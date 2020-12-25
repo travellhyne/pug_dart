@@ -1096,20 +1096,6 @@
     }
   },
   {
-    "type": "outdent",
-    "loc": {
-      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/each.else.pug",
-      "start": {
-        "line": 44,
-        "column": 1
-      },
-      "end": {
-        "line": 44,
-        "column": 1
-      }
-    }
-  },
-  {
     "type": "eos",
     "loc": {
       "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/each.else.pug",

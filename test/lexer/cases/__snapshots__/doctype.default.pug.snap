@@ -132,20 +132,6 @@
     }
   },
   {
-    "type": "outdent",
-    "loc": {
-      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/doctype.default.pug",
-      "start": {
-        "line": 4,
-        "column": 8
-      },
-      "end": {
-        "line": 4,
-        "column": 8
-      }
-    }
-  },
-  {
     "type": "eos",
     "loc": {
       "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/doctype.default.pug",

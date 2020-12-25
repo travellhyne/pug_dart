@@ -46,20 +46,6 @@
     "val": "url"
   },
   {
-    "type": "outdent",
-    "loc": {
-      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/regression.784.pug",
-      "start": {
-        "line": 2,
-        "column": 6
-      },
-      "end": {
-        "line": 2,
-        "column": 6
-      }
-    }
-  },
-  {
     "type": "eos",
     "loc": {
       "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/regression.784.pug",

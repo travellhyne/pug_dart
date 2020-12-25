@@ -218,20 +218,6 @@
     "val": "div"
   },
   {
-    "type": "outdent",
-    "loc": {
-      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/scripts.pug",
-      "start": {
-        "line": 8,
-        "column": 4
-      },
-      "end": {
-        "line": 8,
-        "column": 4
-      }
-    }
-  },
-  {
     "type": "eos",
     "loc": {
       "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/scripts.pug",

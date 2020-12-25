@@ -89,20 +89,6 @@
     }
   },
   {
-    "type": "outdent",
-    "loc": {
-      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/namespaces.pug",
-      "start": {
-        "line": 2,
-        "column": 18
-      },
-      "end": {
-        "line": 2,
-        "column": 18
-      }
-    }
-  },
-  {
     "type": "eos",
     "loc": {
       "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/namespaces.pug",

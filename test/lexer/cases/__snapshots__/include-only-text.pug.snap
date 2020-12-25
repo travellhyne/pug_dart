@@ -205,20 +205,6 @@
     }
   },
   {
-    "type": "outdent",
-    "loc": {
-      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/include-only-text.pug",
-      "start": {
-        "line": 6,
-        "column": 1
-      },
-      "end": {
-        "line": 6,
-        "column": 1
-      }
-    }
-  },
-  {
     "type": "eos",
     "loc": {
       "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/include-only-text.pug",

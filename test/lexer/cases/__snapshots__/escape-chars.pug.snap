@@ -57,20 +57,6 @@
     }
   },
   {
-    "type": "outdent",
-    "loc": {
-      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/escape-chars.pug",
-      "start": {
-        "line": 2,
-        "column": 3
-      },
-      "end": {
-        "line": 2,
-        "column": 3
-      }
-    }
-  },
-  {
     "type": "eos",
     "loc": {
       "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/escape-chars.pug",

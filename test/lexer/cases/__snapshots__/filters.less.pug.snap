@@ -262,20 +262,6 @@
     }
   },
   {
-    "type": "outdent",
-    "loc": {
-      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/filters.less.pug",
-      "start": {
-        "line": 8,
-        "column": 9
-      },
-      "end": {
-        "line": 8,
-        "column": 9
-      }
-    }
-  },
-  {
     "type": "eos",
     "loc": {
       "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/filters.less.pug",

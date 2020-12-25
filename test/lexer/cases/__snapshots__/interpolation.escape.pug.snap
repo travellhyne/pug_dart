@@ -131,20 +131,6 @@
     }
   },
   {
-    "type": "outdent",
-    "loc": {
-      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/interpolation.escape.pug",
-      "start": {
-        "line": 7,
-        "column": 5
-      },
-      "end": {
-        "line": 7,
-        "column": 5
-      }
-    }
-  },
-  {
     "type": "eos",
     "loc": {
       "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/interpolation.escape.pug",

@@ -132,20 +132,6 @@
     }
   },
   {
-    "type": "outdent",
-    "loc": {
-      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/block-expansion.shorthands.pug",
-      "start": {
-        "line": 2,
-        "column": 28
-      },
-      "end": {
-        "line": 2,
-        "column": 28
-      }
-    }
-  },
-  {
     "type": "eos",
     "loc": {
       "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/block-expansion.shorthands.pug",

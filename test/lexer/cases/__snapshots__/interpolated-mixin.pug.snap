@@ -137,20 +137,6 @@
     "val": "p"
   },
   {
-    "type": "outdent",
-    "loc": {
-      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/interpolated-mixin.pug",
-      "start": {
-        "line": 4,
-        "column": 3
-      },
-      "end": {
-        "line": 4,
-        "column": 3
-      }
-    }
-  },
-  {
     "type": "eos",
     "loc": {
       "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/interpolated-mixin.pug",

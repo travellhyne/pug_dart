@@ -721,20 +721,6 @@
     }
   },
   {
-    "type": "outdent",
-    "loc": {
-      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/mixin.block-tag-behaviour.pug",
-      "start": {
-        "line": 24,
-        "column": 7
-      },
-      "end": {
-        "line": 24,
-        "column": 7
-      }
-    }
-  },
-  {
     "type": "eos",
     "loc": {
       "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/mixin.block-tag-behaviour.pug",

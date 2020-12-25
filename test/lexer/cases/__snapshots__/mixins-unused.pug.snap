@@ -74,20 +74,6 @@
     "val": "body"
   },
   {
-    "type": "outdent",
-    "loc": {
-      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/mixins-unused.pug",
-      "start": {
-        "line": 3,
-        "column": 5
-      },
-      "end": {
-        "line": 3,
-        "column": 5
-      }
-    }
-  },
-  {
     "type": "eos",
     "loc": {
       "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/mixins-unused.pug",

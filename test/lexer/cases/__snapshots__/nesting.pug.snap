@@ -249,20 +249,6 @@
     }
   },
   {
-    "type": "outdent",
-    "loc": {
-      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/nesting.pug",
-      "start": {
-        "line": 8,
-        "column": 6
-      },
-      "end": {
-        "line": 8,
-        "column": 6
-      }
-    }
-  },
-  {
     "type": "eos",
     "loc": {
       "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/nesting.pug",

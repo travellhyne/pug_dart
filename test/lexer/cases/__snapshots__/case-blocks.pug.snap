@@ -339,20 +339,6 @@
     }
   },
   {
-    "type": "outdent",
-    "loc": {
-      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/case-blocks.pug",
-      "start": {
-        "line": 10,
-        "column": 11
-      },
-      "end": {
-        "line": 10,
-        "column": 11
-      }
-    }
-  },
-  {
     "type": "eos",
     "loc": {
       "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/case-blocks.pug",

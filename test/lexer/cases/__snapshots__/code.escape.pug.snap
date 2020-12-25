@@ -78,20 +78,6 @@
     "mustEscape": false
   },
   {
-    "type": "outdent",
-    "loc": {
-      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.escape.pug",
-      "start": {
-        "line": 2,
-        "column": 15
-      },
-      "end": {
-        "line": 2,
-        "column": 15
-      }
-    }
-  },
-  {
     "type": "eos",
     "loc": {
       "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/code.escape.pug",

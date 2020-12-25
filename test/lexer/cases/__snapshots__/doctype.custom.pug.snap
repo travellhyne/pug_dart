@@ -15,20 +15,6 @@
     "val": "custom stuff"
   },
   {
-    "type": "outdent",
-    "loc": {
-      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/doctype.custom.pug",
-      "start": {
-        "line": 1,
-        "column": 21
-      },
-      "end": {
-        "line": 1,
-        "column": 21
-      }
-    }
-  },
-  {
     "type": "eos",
     "loc": {
       "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/doctype.custom.pug",

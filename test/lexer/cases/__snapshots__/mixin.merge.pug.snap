@@ -783,20 +783,6 @@
     }
   },
   {
-    "type": "outdent",
-    "loc": {
-      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/mixin.merge.pug",
-      "start": {
-        "line": 15,
-        "column": 36
-      },
-      "end": {
-        "line": 15,
-        "column": 36
-      }
-    }
-  },
-  {
     "type": "eos",
     "loc": {
       "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/mixin.merge.pug",

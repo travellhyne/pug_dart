@@ -117,20 +117,6 @@
     }
   },
   {
-    "type": "outdent",
-    "loc": {
-      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/regression.1794.pug",
-      "start": {
-        "line": 4,
-        "column": 39
-      },
-      "end": {
-        "line": 4,
-        "column": 39
-      }
-    }
-  },
-  {
     "type": "eos",
     "loc": {
       "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/regression.1794.pug",

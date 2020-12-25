@@ -194,20 +194,6 @@
     }
   },
   {
-    "type": "outdent",
-    "loc": {
-      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/mixin-hoist.pug",
-      "start": {
-        "line": 8,
-        "column": 1
-      },
-      "end": {
-        "line": 8,
-        "column": 1
-      }
-    }
-  },
-  {
     "type": "eos",
     "loc": {
       "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/mixin-hoist.pug",

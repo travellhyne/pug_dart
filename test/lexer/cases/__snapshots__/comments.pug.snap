@@ -552,20 +552,6 @@
     "val": "foo"
   },
   {
-    "type": "outdent",
-    "loc": {
-      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/comments.pug",
-      "start": {
-        "line": 29,
-        "column": 6
-      },
-      "end": {
-        "line": 29,
-        "column": 6
-      }
-    }
-  },
-  {
     "type": "eos",
     "loc": {
       "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/comments.pug",

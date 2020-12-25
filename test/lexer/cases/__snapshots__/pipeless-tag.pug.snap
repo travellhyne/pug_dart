@@ -71,20 +71,6 @@
     }
   },
   {
-    "type": "outdent",
-    "loc": {
-      "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/pipeless-tag.pug",
-      "start": {
-        "line": 3,
-        "column": 3
-      },
-      "end": {
-        "line": 3,
-        "column": 3
-      }
-    }
-  },
-  {
     "type": "eos",
     "loc": {
       "filename": "/mnt/c/Users/neilj/Workspace/pug_dart/test/lexer/cases/pipeless-tag.pug",
