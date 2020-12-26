@@ -1,22 +1,11 @@
-A library for Dart developers.
-
-Created from templates made available by Stagehand under a BSD-style
-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
+A port of [Pug](https://pugjs.org/) written in Dart (in progress)
 
 ## Usage
 
-A simple usage example:
-
-```dart
-import 'package:pug_dart/pug_dart.dart';
-
-main() {
-  var awesome = new Awesome();
-}
-```
+TODO
 
 ## Features and bugs
 
 Please file feature requests and bugs at the [issue tracker][tracker].
 
-[tracker]: http://example.com/issues/replaceme
+[tracker]: https://github.com/travellhyne/pug_dart/issues
