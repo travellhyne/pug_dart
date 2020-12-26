@@ -3,13 +3,14 @@ import 'dart:math';
 class PugException implements Exception {
   PugException(this.message);
 
-  final String message;
+  String message;
   String code;
   String msg;
   int line;
   int column;
   String filename;
   String src;
+  String path;
 
   Map<String, dynamic> toJSON() {
     return {
@@ -19,6 +20,11 @@ class PugException implements Exception {
       'column': column,
       'filename': filename,
     };
+  }
+
+  @override
+  String toString() {
+    return '$code: $message';
   }
 }
 
