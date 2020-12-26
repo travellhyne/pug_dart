@@ -21,7 +21,8 @@ class Node {
 }
 
 class Block extends Node {
-  @override String type = 'Block';
+  @override
+  String type = 'Block';
   String mode;
   String name;
 
@@ -36,7 +37,8 @@ class Block extends Node {
 }
 
 class Text extends Node {
-  @override final String type = 'Text';
+  @override
+  final String type = 'Text';
   String val;
   bool isHtml = false;
 
@@ -51,7 +53,8 @@ class Text extends Node {
 }
 
 class Code extends Node {
-  @override final String type = 'Code';
+  @override
+  final String type = 'Code';
   String val;
   bool buffer;
   bool mustEscape;
@@ -72,7 +75,8 @@ class Code extends Node {
 }
 
 class Case extends Node {
-  @override final String type = 'Case';
+  @override
+  final String type = 'Case';
   dynamic expr;
   Node block;
 
@@ -87,7 +91,8 @@ class Case extends Node {
 }
 
 class When extends Node {
-  @override final String type = 'When';
+  @override
+  final String type = 'When';
   dynamic expr;
   Node block;
   bool debug;
@@ -104,7 +109,8 @@ class When extends Node {
 }
 
 class Conditional extends Node {
-  @override final String type = 'Conditional';
+  @override
+  final String type = 'Conditional';
   dynamic test;
   Node consequent;
   Node alternate;
@@ -121,7 +127,8 @@ class Conditional extends Node {
 }
 
 class While extends Node {
-  @override final String type = 'While';
+  @override
+  final String type = 'While';
   dynamic test;
   Node block;
 
@@ -136,7 +143,8 @@ class While extends Node {
 }
 
 class Comment extends Node {
-  @override final String type = 'Comment';
+  @override
+  final String type = 'Comment';
   dynamic val;
   bool buffer;
 
@@ -151,7 +159,8 @@ class Comment extends Node {
 }
 
 class BlockComment extends Comment {
-  @override final String type = 'BlockComment';
+  @override
+  final String type = 'BlockComment';
   Node block;
 
   @override
@@ -164,7 +173,8 @@ class BlockComment extends Comment {
 }
 
 class Doctype extends Node {
-  @override final String type = 'Doctype';
+  @override
+  final String type = 'Doctype';
   dynamic val;
 
   @override
@@ -177,7 +187,8 @@ class Doctype extends Node {
 }
 
 class IncludeFilter extends Node {
-  @override final String type = 'IncludeFilter';
+  @override
+  final String type = 'IncludeFilter';
   dynamic name;
   List attrs;
 
@@ -191,7 +202,8 @@ class IncludeFilter extends Node {
 }
 
 class Filter extends Node {
-  @override final String type = 'Filter';
+  @override
+  final String type = 'Filter';
   dynamic name;
   Node block;
   List attrs;
@@ -206,7 +218,8 @@ class Filter extends Node {
 }
 
 class Each extends Node {
-  @override final String type = 'Each';
+  @override
+  final String type = 'Each';
   String obj;
   dynamic val;
   String key;
@@ -227,7 +240,8 @@ class Each extends Node {
 }
 
 class EachOf extends Node {
-  @override final String type = 'EachOf';
+  @override
+  final String type = 'EachOf';
   String obj;
   dynamic val;
   Node block;
@@ -244,7 +258,8 @@ class EachOf extends Node {
 }
 
 class Extends extends Node {
-  @override final String type = 'Extends';
+  @override
+  final String type = 'Extends';
   FileReference file;
 
   @override
@@ -257,7 +272,8 @@ class Extends extends Node {
 }
 
 class FileReference extends Node {
-  @override final String type = 'FileReference';
+  @override
+  final String type = 'FileReference';
   String path;
 
   @override
@@ -270,15 +286,18 @@ class FileReference extends Node {
 }
 
 class MixinBlock extends Node {
-  @override final String type = 'MixinBlock';
+  @override
+  final String type = 'MixinBlock';
 }
 
 class YieldBlock extends Node {
-  @override final String type = 'YieldBlock';
+  @override
+  final String type = 'YieldBlock';
 }
 
 class Include extends Node {
-  @override String type = 'Include';
+  @override
+  String type = 'Include';
   FileReference file;
   Node block;
   List<Node> filters;
@@ -288,13 +307,15 @@ class Include extends Node {
     return {
       ...super.toMap(),
       'file': file?.toJSON(),
-      if (type == 'RawInclude') 'filters': filters?.map((e) => e?.toJSON())?.toList(),
+      if (type == 'RawInclude')
+        'filters': filters?.map((e) => e?.toJSON())?.toList(),
     };
   }
 }
 
 class Tag extends Node {
-  @override String type = 'Tag';
+  @override
+  String type = 'Tag';
   String name;
   dynamic expr;
   bool selfClosing;
@@ -320,7 +341,8 @@ class Tag extends Node {
 }
 
 class Mixin extends Tag {
-  @override final String type = 'Mixin';
+  @override
+  final String type = 'Mixin';
   String args;
   bool call;
   Node code;

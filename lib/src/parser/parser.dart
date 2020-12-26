@@ -20,7 +20,7 @@ class Parser {
   }
 
   TokenStream tokens;
-  
+
   String filename;
   String src;
   int inMixin = 0;
@@ -50,7 +50,7 @@ class Parser {
   Node parse() {
     var block = emptyBlock(0);
 
-    while(peek().type != 'eos') {
+    while (peek().type != 'eos') {
       if (peek().type == 'newline') {
         advance();
       } else if (peek().type == 'text-html') {
@@ -114,7 +114,8 @@ class Parser {
     for (var plugin in plugins) {
       if (plugin[context] != null && plugin[context][tok.type] != null) {
         if (pluginContext) {
-          throw Exception('Multiple plugin handlers found for context $context, token type ${tok.type}');
+          throw Exception(
+              'Multiple plugin handlers found for context $context, token type ${tok.type}');
         }
         pluginContext = plugin[context];
       }
@@ -208,11 +209,7 @@ class Parser {
       default:
         var pluginResult = runPlugin('expressionTokens', peek());
         if (pluginResult != null) return pluginResult;
-        error(
-          'INVALID_TOKEN',
-          'unexpected token "${peek().type}"',
-          peek()
-        );
+        error('INVALID_TOKEN', 'unexpected token "${peek().type}"', peek());
         return null;
     }
   }
@@ -227,7 +224,8 @@ class Parser {
     var lineno = peek().loc.start.line;
     var nextTok = peek();
 
-    loop: while (true) {
+    loop:
+    while (true) {
       switch (nextTok.type) {
         case 'text':
           var tok = advance();
@@ -236,8 +234,7 @@ class Parser {
             ..val = tok.val
             ..line = tok.loc.start.line
             ..column = tok.loc.start.column
-            ..filename = filename
-          );
+            ..filename = filename);
           break;
         case 'interpolated-code':
           var tok = advance();
@@ -248,8 +245,7 @@ class Parser {
             ..isInline = true
             ..line = tok.loc.start.line
             ..column = tok.loc.start.column
-            ..filename = filename
-          );
+            ..filename = filename);
           break;
         case 'newline':
           if (options == null || options['block'] == null) break loop;
@@ -260,8 +256,7 @@ class Parser {
               ..val = '\n'
               ..line = tok.loc.start.line
               ..column = tok.loc.start.column
-              ..filename = filename
-            );
+              ..filename = filename);
           }
           break;
         case 'start-pug-interpolation':
@@ -279,8 +274,7 @@ class Parser {
 
     if (tags.length == 1) {
       return tags.first;
-    }
-    else {
+    } else {
       return initBlock(lineno, tags);
     }
   }
@@ -288,7 +282,8 @@ class Parser {
   List<Node> parseTextHtml() {
     var nodes = <Node>[];
     Node currentNode;
-    loop: while (true) {
+    loop:
+    while (true) {
       switch (peek().type) {
         case 'text-html':
           var text = advance();
@@ -340,8 +335,8 @@ class Parser {
     if (tok != null) {
       var expr = parseExpr();
       return expr.type == 'Block'
-        ? expr
-        : initBlock(tok.loc.start.line, [expr]);
+          ? expr
+          : initBlock(tok.loc.start.line, [expr]);
     } else {
       return block();
     }
@@ -373,12 +368,11 @@ class Parser {
           var pluginResult = runPlugin('caseTokens', peek(), [block]);
           if (pluginResult != null) break;
           error(
-            'INVALID_TOKEN',
-            'Unexpected token "' +
-              peek().type +
-              '", expected "when", "default" or "newline"',
-            peek()
-          );
+              'INVALID_TOKEN',
+              'Unexpected token "' +
+                  peek().type +
+                  '", expected "when", "default" or "newline"',
+              peek());
       }
     }
     expect('outdent');
@@ -441,11 +435,8 @@ class Parser {
     block = 'indent' == peek().type;
     if (block) {
       if (tok.buffer) {
-        error(
-          'BLOCK_IN_BUFFERED_CODE',
-          'Buffered code cannot have a block attached to it',
-          peek()
-        );
+        error('BLOCK_IN_BUFFERED_CODE',
+            'Buffered code cannot have a block attached to it', peek());
       }
       node.block = this.block();
     }
@@ -539,11 +530,7 @@ class Parser {
               text += pluginResult;
               break;
             }
-            error(
-              'INVALID_TOKEN',
-              'Unexpected token type: ' + tok.type,
-              tok
-            );
+            error('INVALID_TOKEN', 'Unexpected token type: ' + tok.type, tok);
         }
       }
       advance();
@@ -687,14 +674,12 @@ class Parser {
     var tok = expect('block');
 
     var node =
-      ('indent' == peek().type
-        ? block()
-        : emptyBlock(tok.loc.start.line))
-      ..type = 'NamedBlock'
-      ..name = tok.val.trim()
-      ..mode = tok.mode
-      ..line = tok.loc.start.line
-      ..column = tok.loc.start.column;
+        ('indent' == peek().type ? block() : emptyBlock(tok.loc.start.line))
+          ..type = 'NamedBlock'
+          ..name = tok.val.trim()
+          ..mode = tok.mode
+          ..line = tok.loc.start.line
+          ..column = tok.loc.start.column;
 
     return node;
   }
@@ -703,10 +688,9 @@ class Parser {
     var tok = expect('mixin-block');
     if (inMixin == 0) {
       error(
-        'BLOCK_OUTISDE_MIXIN',
-        'Anonymous blocks are not allowed unless they are part of a mixin.',
-        tok
-      );
+          'BLOCK_OUTISDE_MIXIN',
+          'Anonymous blocks are not allowed unless they are part of a mixin.',
+          tok);
     }
     return MixinBlock()
       ..line = tok.loc.start.line
@@ -739,31 +723,21 @@ class Parser {
     node.file.line = path.loc.start.line;
     node.file.column = path.loc.start.column;
 
-    if (
-      (
-        RegExp(r'\.jade$').hasMatch(node.file.path) ||
-        RegExp(r'\.pug$').hasMatch(node.file.path)
-      ) &&
-      filters.isEmpty
-    ) {
+    if ((RegExp(r'\.jade$').hasMatch(node.file.path) ||
+            RegExp(r'\.pug$').hasMatch(node.file.path)) &&
+        filters.isEmpty) {
       node.block =
-        'indent' == peek().type
-          ? block()
-          : emptyBlock(tok.loc.start.line);
+          'indent' == peek().type ? block() : emptyBlock(tok.loc.start.line);
       if (RegExp(r'\.jade$').hasMatch(node.file.path)) {
         _logger.w(
-          '$filename, line ${tok.loc.start.line}:\nThe .jade extension is deprecated, use .pug for "${node.file.path}".'
-        );
+            '$filename, line ${tok.loc.start.line}:\nThe .jade extension is deprecated, use .pug for "${node.file.path}".');
       }
     } else {
       node.type = 'RawInclude';
       node.filters = filters;
       if (peek().type == 'indent') {
-        error(
-          'RAW_INCLUDE_BLOCK',
-          'Raw inclusion cannot contain a block',
-          peek()
-        );
+        error('RAW_INCLUDE_BLOCK', 'Raw inclusion cannot contain a block',
+            peek());
       }
     }
     return node;
@@ -813,11 +787,8 @@ class Parser {
       inMixin--;
       return mixinNode;
     } else {
-      error(
-        'MIXIN_WITHOUT_BODY',
-        'Mixin ' + name + ' declared without body',
-        tok
-      );
+      error('MIXIN_WITHOUT_BODY', 'Mixin ' + name + ' declared without body',
+          tok);
       return null;
     }
   }
@@ -834,16 +805,14 @@ class Parser {
             ..val = tok.val
             ..line = tok.loc.start.line
             ..column = tok.loc.start.column
-            ..filename = filename
-          );
+            ..filename = filename);
           break;
         case 'newline':
           block.nodes.add(Text()
             ..val = '\n'
             ..line = tok.loc.start.line
             ..column = tok.loc.start.column
-            ..filename = filename
-          );
+            ..filename = filename);
           break;
         case 'start-pug-interpolation':
           block.nodes.add(parseExpr());
@@ -857,17 +826,12 @@ class Parser {
             ..isInline = true
             ..line = tok.loc.start.line
             ..column = tok.loc.start.column
-            ..filename = filename
-          );
+            ..filename = filename);
           break;
         default:
           var pluginResult = runPlugin('textBlockTokens', tok, [block, tok]);
           if (pluginResult != null) break;
-          error(
-            'INVALID_TOKEN',
-            'Unexpected token type: ' + tok.type,
-            tok
-          );
+          error('INVALID_TOKEN', 'Unexpected token type: ' + tok.type, tok);
       }
     }
     advance();
@@ -912,18 +876,16 @@ class Parser {
     var attributeNames = <String>[];
     var selfClosingAllowed = options?.selfClosingAllowed;
     // (attrs | class | id)*
-    out: while (true) {
+    out:
+    while (true) {
       switch (peek().type) {
         case 'id':
         case 'class':
           var tok = advance();
           if (tok.type == 'id') {
             if (attributeNames.contains('id')) {
-              error(
-                'DUPLICATE_ID',
-                'Duplicate attribute "id" is not allowed.',
-                tok
-              );
+              error('DUPLICATE_ID', 'Duplicate attribute "id" is not allowed.',
+                  tok);
             }
             attributeNames.add('id');
           }
@@ -933,14 +895,12 @@ class Parser {
             ..line = tok.loc.start.line
             ..column = tok.loc.start.column
             ..filename = filename
-            ..mustEscape = false
-          );
+            ..mustEscape = false);
           continue;
         case 'start-attributes':
           if (seenAttrs) {
             _logger.w(
-              '$filename, line ${peek().loc.start.line}:\nYou should not have pug tags with multiple attributes.'
-            );
+                '$filename, line ${peek().loc.start.line}:\nYou should not have pug tags with multiple attributes.');
           }
           seenAttrs = true;
           tagNode.attrs += attrs(attributeNames);
@@ -952,15 +912,11 @@ class Parser {
             ..val = tok.val
             ..line = tok.loc.start.line
             ..column = tok.loc.start.column
-            ..filename = filename
-          );
+            ..filename = filename);
           break;
         default:
           var pluginResult = runPlugin(
-            'tagAttributeTokens',
-            peek(),
-            [tagNode, attributeNames]
-          );
+              'tagAttributeTokens', peek(), [tagNode, attributeNames]);
           if (pluginResult != null) break;
           break out;
       }
@@ -990,7 +946,7 @@ class Parser {
         advance();
         var expr = parseExpr();
         tagNode.block =
-          expr.type == 'Block' ? expr : initBlock(tagNode.line, [expr]);
+            expr.type == 'Block' ? expr : initBlock(tagNode.line, [expr]);
         break;
       case 'newline':
       case 'indent':
@@ -1007,21 +963,16 @@ class Parser {
             break;
           }
         }
-        var pluginResult = runPlugin(
-          'tagTokens',
-          peek(),
-          [tagNode, options]
-        );
+        var pluginResult = runPlugin('tagTokens', peek(), [tagNode, options]);
         if (pluginResult) break;
         error(
-          'INVALID_TOKEN',
-          'Unexpected token `' +
-            peek().type +
-            '` expected `text`, `interpolated-code`, `code`, `:`' +
-            (selfClosingAllowed ? ', `slash`' : '') +
-            ', `newline` or `eos`',
-          peek()
-        );
+            'INVALID_TOKEN',
+            'Unexpected token `' +
+                peek().type +
+                '` expected `text`, `interpolated-code`, `code`, `:`' +
+                (selfClosingAllowed ? ', `slash`' : '') +
+                ', `newline` or `eos`',
+            peek());
     }
 
     // newline*
@@ -1048,11 +999,8 @@ class Parser {
     while (tok.type == 'attribute') {
       if (tok.name != 'class' && attributeNames != null) {
         if (attributeNames.contains(tok.name)) {
-          error(
-            'DUPLICATE_ATTRIBUTE',
-            'Duplicate attribute "' + tok.name + '" is not allowed.',
-            tok
-          );
+          error('DUPLICATE_ATTRIBUTE',
+              'Duplicate attribute "' + tok.name + '" is not allowed.', tok);
         }
         attributeNames.add(tok.name);
       }
@@ -1062,8 +1010,7 @@ class Parser {
         ..line = tok.loc.start.line
         ..column = tok.loc.start.column
         ..filename = filename
-        ..mustEscape = tok.mustEscape != false
-      );
+        ..mustEscape = tok.mustEscape != false);
       tok = advance();
     }
     tokens.defer(tok);

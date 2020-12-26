@@ -39,8 +39,8 @@ class Lexer {
 
   void error(String code, String message) {
     var err = makeError(
-      code: code, 
-      message: message, 
+      code: code,
+      message: message,
       options: {
         'line': lineno,
         'column': colno,
@@ -146,7 +146,8 @@ class Lexer {
       }
 
       if (RegExp(r'^[ \t]*(\n|$)').hasMatch(newInput)) {
-        input = newInput.substr(RegExp(r'^[ \t]*').firstMatch(newInput).group(0).length);
+        input = newInput
+            .substr(RegExp(r'^[ \t]*').firstMatch(newInput).group(0).length);
         token = tok(type, captures.groupCount >= 1 ? captures.group(1) : null);
         incrementColumn(captures.group(0).length - whitespaceLength);
         return token;
@@ -170,7 +171,8 @@ class Lexer {
     character_parser.ParserResult range;
 
     try {
-      range = character_parser.parseUntil(input, end, character_parser.ParserOptions()..start = skip + 1);
+      range = character_parser.parseUntil(
+          input, end, character_parser.ParserOptions()..start = skip + 1);
     } on character_parser.ParserException catch (ex) {
       if (ex.index != null) {
         var idx = ex.index;
@@ -228,10 +230,8 @@ class Lexer {
   bool eos() {
     if (input.isNotEmpty) return false;
     if (interpolated) {
-      error(
-        'NO_END_BRACKET',
-        'End of line was reached with no closing bracket for interpolation.'
-      );
+      error('NO_END_BRACKET',
+          'End of line was reached with no closing bracket for interpolation.');
     }
     for (var indent in indentStack) {
       if (indent != null && indent != 0) {
@@ -352,12 +352,10 @@ class Lexer {
       return true;
     }
 
-    if(RegExp(r'^#').hasMatch(input)) {
-      var invalidId = RegExp(r'.[^ \t\(\#\.\:]*').firstMatch(input.substr(1)).group(0);
-      error(
-        'INVALID_ID',
-        '"$invalidId" is not a valid ID.'
-      );
+    if (RegExp(r'^#').hasMatch(input)) {
+      var invalidId =
+          RegExp(r'.[^ \t\(\#\.\:]*').firstMatch(input.substr(1)).group(0);
+      error('INVALID_ID', '"$invalidId" is not a valid ID.');
     }
 
     return false;
@@ -377,18 +375,15 @@ class Lexer {
     }
 
     if (RegExp(r'^\.[_a-z0-9\-]+', caseSensitive: false).hasMatch(input)) {
-      error(
-        'INVALID_CLASS_NAME',
-        'Class names must contain at least one letter or underscore.'
-      );
+      error('INVALID_CLASS_NAME',
+          'Class names must contain at least one letter or underscore.');
     }
 
     if (RegExp(r'^\.').hasMatch(input)) {
-      var invalidClassName = RegExp(r'.[^ \t\(\#\.\:]*').firstMatch(input.substr(1)).group(0);
-      error(
-        'INVALID_CLASS_NAME',
-        '"$invalidClassName" is not a valid class name.  Class names can only contain "_", "-", a-z and 0-9, and must contain at least one of "_", or a-z'
-      );
+      var invalidClassName =
+          RegExp(r'.[^ \t\(\#\.\:]*').firstMatch(input.substr(1)).group(0);
+      error('INVALID_CLASS_NAME',
+          '"$invalidClassName" is not a valid class name.  Class names can only contain "_", "-", a-z and 0-9, and must contain at least one of "_", or a-z');
     }
 
     return false;
@@ -414,51 +409,43 @@ class Lexer {
     num indexOfEnd = interpolated ? value.indexOf(']') : -1;
     num indexOfStart = interpolationAllowed ? value.indexOf('#[') : -1;
     num indexOfEscaped = interpolationAllowed ? value.indexOf('\\#[') : -1;
-    var matchOfStringInterp = RegExp(r'(\\)?([#!]){((?:.|\n)*)$').firstMatch(value);
+    var matchOfStringInterp =
+        RegExp(r'(\\)?([#!]){((?:.|\n)*)$').firstMatch(value);
     var indexOfStringInterp =
-      interpolationAllowed && matchOfStringInterp != null
-        ? matchOfStringInterp.start : double.infinity;
+        interpolationAllowed && matchOfStringInterp != null
+            ? matchOfStringInterp.start
+            : double.infinity;
 
     if (indexOfEnd == -1) indexOfEnd = double.infinity;
     if (indexOfStart == -1) indexOfStart = double.infinity;
     if (indexOfEscaped == -1) indexOfEscaped = double.infinity;
 
-    if (
-      indexOfEscaped != double.infinity &&
-      indexOfEscaped < indexOfEnd &&
-      indexOfEscaped < indexOfStart &&
-      indexOfEscaped < indexOfStringInterp
-    ) {
+    if (indexOfEscaped != double.infinity &&
+        indexOfEscaped < indexOfEnd &&
+        indexOfEscaped < indexOfStart &&
+        indexOfEscaped < indexOfStringInterp) {
       prefix = prefix + value.substring(0, indexOfEscaped) + '#[';
       return addText(
-        type,
-        value.substring(indexOfEscaped + 3),
-        prefix,
-        escaped + 1
-      );
+          type, value.substring(indexOfEscaped + 3), prefix, escaped + 1);
     }
 
-    if (
-      indexOfStart != double.infinity &&
-      indexOfStart < indexOfEnd &&
-      indexOfStart < indexOfEscaped &&
-      indexOfStart < indexOfStringInterp
-    ) {
+    if (indexOfStart != double.infinity &&
+        indexOfStart < indexOfEnd &&
+        indexOfStart < indexOfEscaped &&
+        indexOfStart < indexOfStringInterp) {
       token = tok(type, prefix + value.substring(0, indexOfStart));
       incrementColumn(prefix.length + indexOfStart + escaped);
       tokens.add(tokEnd(token));
       token = tok('start-pug-interpolation');
       incrementColumn(2);
       tokens.add(tokEnd(token));
-      var child = Lexer(
-        value.substr(indexOfStart + 2),
-        options: LexerOptions(
-          filename: filename,
-          interpolated: true,
-          startingLine: lineno,
-          startingColumn: colno,
-        )
-      );
+      var child = Lexer(value.substr(indexOfStart + 2),
+          options: LexerOptions(
+            filename: filename,
+            interpolated: true,
+            startingLine: lineno,
+            startingColumn: colno,
+          ));
       List<Token> interpolated;
       try {
         interpolated = child.getTokens();
@@ -478,12 +465,10 @@ class Lexer {
       return;
     }
 
-    if (
-      indexOfEnd != double.infinity &&
-      indexOfEnd < indexOfStart &&
-      indexOfEnd < indexOfEscaped &&
-      indexOfEnd < indexOfStringInterp
-    ) {
+    if (indexOfEnd != double.infinity &&
+        indexOfEnd < indexOfStart &&
+        indexOfEnd < indexOfEscaped &&
+        indexOfEnd < indexOfStringInterp) {
       if ((prefix + value.substring(0, indexOfEnd)).isNotEmpty) {
         addText(type, value.substring(0, indexOfEnd), prefix);
       }
@@ -495,12 +480,8 @@ class Lexer {
     if (indexOfStringInterp != double.infinity) {
       if (matchOfStringInterp.group(1) != null) {
         prefix = prefix + value.substring(0, indexOfStringInterp) + '#{';
-        return addText(
-          type,
-          value.substring(indexOfStringInterp + 3),
-          prefix,
-          escaped + 1
-        );
+        return addText(type, value.substring(indexOfStringInterp + 3), prefix,
+            escaped + 1);
       }
       var before = value.substr(0, indexOfStringInterp);
       if (prefix.isNotEmpty || before.isNotEmpty) {
@@ -521,10 +502,8 @@ class Lexer {
           incrementColumn(ex.index);
         }
         if (ex.code == 'CHARACTER_PARSER:END_OF_STRING_REACHED') {
-          error(
-            'NO_END_BRACKET',
-            'End of line was reached with no closing bracket for interpolation.'
-          );
+          error('NO_END_BRACKET',
+              'End of line was reached with no closing bracket for interpolation.');
         } else if (ex.code == 'CHARACTER_PARSER:MISMATCHED_BRACKET') {
           error('BRACKET_MISMATCH', ex.message);
         } else {
@@ -555,10 +534,9 @@ class Lexer {
   }
 
   bool text() {
-    var token =
-      scan(RegExp(r'^(?:\| ?| )([^\n]+)'), 'text') ??
-      scan(RegExp(r'^( )'), 'text') ??
-      scan(RegExp(r'^\|( ?)'), 'text');
+    var token = scan(RegExp(r'^(?:\| ?| )([^\n]+)'), 'text') ??
+        scan(RegExp(r'^( )'), 'text') ??
+        scan(RegExp(r'^\|( ?)'), 'text');
     if (token != null) {
       addText('text', token.val);
       return true;
@@ -582,7 +560,7 @@ class Lexer {
     if (token != null) {
       tokens.add(tokEnd(token));
       pipelessText();
-      
+
       return true;
     }
 
@@ -611,12 +589,7 @@ class Lexer {
       var name = captures.group(1)?.trim();
       var comment = '';
       if (name.contains('//')) {
-        comment =
-          '//' +
-          name
-            .split('//')
-            .sublist(1)
-            .join('//');
+        comment = '//' + name.split('//').sublist(1).join('//');
         name = name.split('//')[0].trim();
       }
       if (name.isEmpty) return false;
@@ -642,12 +615,7 @@ class Lexer {
       var name = captures.group(1).trim();
       var comment = '';
       if (name.contains('//')) {
-        comment =
-          '//' +
-          name
-            .split('//')
-            .sublist(1)
-            .join('//');
+        comment = '//' + name.split('//').sublist(1).join('//');
         name = name.split('//')[0].trim();
       }
       if (name.isEmpty) return false;
@@ -673,12 +641,7 @@ class Lexer {
       var name = captures.group(1).trim();
       var comment = '';
       if (name.contains('//')) {
-        comment =
-          '//' +
-          name
-            .split('//')
-            .sublist(1)
-            .join('//');
+        comment = '//' + name.split('//').sublist(1).join('//');
         name = name.split('//')[0].trim();
       }
       if (name.isEmpty) return false;
@@ -800,10 +763,7 @@ class Lexer {
       return true;
     }
     if (scan(RegExp(r'^default\b')) != null) {
-      error(
-        'DEFAULT_WITH_EXPRESSION',
-        'default should not have an expression'
-      );
+      error('DEFAULT_WITH_EXPRESSION', 'default should not have an expression');
     }
 
     return false;
@@ -858,7 +818,8 @@ class Lexer {
   }
 
   bool mixin_() {
-    var captures = RegExp(r'^mixin +([-\w]+)(?: *\((.*)\))? *').firstMatch(input);
+    var captures =
+        RegExp(r'^mixin +([-\w]+)(?: *\((.*)\))? *').firstMatch(input);
     if (captures != null) {
       consume(captures.group(0).length);
       var token = tok('mixin', captures.group(1));
@@ -871,7 +832,8 @@ class Lexer {
   }
 
   bool conditional() {
-    var captures = RegExp(r'^(if|unless|else if|else)\b([^\n]*)').firstMatch(input);
+    var captures =
+        RegExp(r'^(if|unless|else if|else)\b([^\n]*)').firstMatch(input);
     if (captures != null) {
       consume(captures.group(0).length);
       var type = captures.group(1).replaceAll(RegExp(r' '), '-');
@@ -892,10 +854,8 @@ class Lexer {
           break;
         case 'else':
           if (stmt != null && stmt.isNotEmpty) {
-            error(
-              'ELSE_CONDITION',
-              '`else` cannot have a condition, perhaps you meant `else if`'
-            );
+            error('ELSE_CONDITION',
+                '`else` cannot have a condition, perhaps you meant `else if`');
           }
           break;
       }
@@ -925,7 +885,9 @@ class Lexer {
   }
 
   bool each() {
-    var captures = RegExp(r'^(?:each|for) +([a-zA-Z_$][\w$]*)(?: *, *([a-zA-Z_$][\w$]*))? * in *([^\n]+)').firstMatch(input);
+    var captures = RegExp(
+            r'^(?:each|for) +([a-zA-Z_$][\w$]*)(?: *, *([a-zA-Z_$][\w$]*))? * in *([^\n]+)')
+        .firstMatch(input);
     if (captures != null) {
       consume(captures.group(0).length);
       var token = tok('each', captures.group(1));
@@ -939,18 +901,16 @@ class Lexer {
     }
     final name = RegExp(r'^each\b').hasMatch(input) ? 'each' : 'for';
     if (scan(RegExp(r'^(?:each|for)\b')) != null) {
-      error(
-        'MALFORMED_EACH',
-        'This `$name` has a syntax error. `$name` statements should be of the form: `$name VARIABLE_NAME of JS_EXPRESSION`'
-      );
+      error('MALFORMED_EACH',
+          'This `$name` has a syntax error. `$name` statements should be of the form: `$name VARIABLE_NAME of JS_EXPRESSION`');
     }
 
-    captures = RegExp(r'^- *(?:each|for) +([a-zA-Z_$][\w$]*)(?: *, *([a-zA-Z_$][\w$]*))? +in +([^\n]+)').firstMatch(input);
+    captures = RegExp(
+            r'^- *(?:each|for) +([a-zA-Z_$][\w$]*)(?: *, *([a-zA-Z_$][\w$]*))? +in +([^\n]+)')
+        .firstMatch(input);
     if (captures != null) {
-      error(
-        'MALFORMED_EACH',
-        'Pug each and for should no longer be prefixed with a dash ("-"). They are pug keywords and not part of JavaScript.'
-      );
+      error('MALFORMED_EACH',
+          'Pug each and for should no longer be prefixed with a dash ("-"). They are pug keywords and not part of JavaScript.');
     }
 
     return false;
@@ -968,28 +928,21 @@ class Lexer {
       incrementColumn(captures.group(2).length);
       tokens.add(tokEnd(token));
 
-      if (
-        !(
-          RegExp(r'^[a-zA-Z_$][\w$]*$').hasMatch(token.value.trim()) ||
-          RegExp(r'^\[ *[a-zA-Z_$][\w$]* *\, *[a-zA-Z_$][\w$]* *\]$').hasMatch(
-            token.value.trim()
-          )
-        )
-      ) {
-        error(
-          'MALFORMED_EACH_OF_LVAL',
-          'The value variable for each must either be a valid identifier (e.g. `item`) or a pair of identifiers in square brackets (e.g. `[key, value]`).'
-        );
+      if (!(RegExp(r'^[a-zA-Z_$][\w$]*$').hasMatch(token.value.trim()) ||
+          RegExp(r'^\[ *[a-zA-Z_$][\w$]* *\, *[a-zA-Z_$][\w$]* *\]$')
+              .hasMatch(token.value.trim()))) {
+        error('MALFORMED_EACH_OF_LVAL',
+            'The value variable for each must either be a valid identifier (e.g. `item`) or a pair of identifiers in square brackets (e.g. `[key, value]`).');
       }
 
       return true;
     }
 
-    if (RegExp(r'^- *(?:each|for) +([a-zA-Z_$][\w$]*)(?: *, *([a-zA-Z_$][\w$]*))? +of +([^\n]+)').hasMatch(input)) {
-      error(
-        'MALFORMED_EACH',
-        'Pug each and for should not be prefixed with a dash ("-"). They are pug keywords and not part of JavaScript.'
-      );
+    if (RegExp(
+            r'^- *(?:each|for) +([a-zA-Z_$][\w$]*)(?: *, *([a-zA-Z_$][\w$]*))? +of +([^\n]+)')
+        .hasMatch(input)) {
+      error('MALFORMED_EACH',
+          'Pug each and for should not be prefixed with a dash ("-"). They are pug keywords and not part of JavaScript.');
     }
 
     return false;
@@ -1010,10 +963,8 @@ class Lexer {
             incrementColumn(captures.group(0).length - code.length + err.index);
           }
           if (err.code == 'CHARACTER_PARSER:END_OF_STRING_REACHED') {
-            error(
-              'NO_END_BRACKET',
-              'End of line was reached with no closing bracket for interpolation.'
-            );
+            error('NO_END_BRACKET',
+                'End of line was reached with no closing bracket for interpolation.');
           } else if (err.code == 'CHARACTER_PARSER:MISMATCHED_BRACKET') {
             error('BRACKET_MISMATCH', err.message);
           } else {
@@ -1027,7 +978,8 @@ class Lexer {
       consume(consumed);
       var token = tok('code', code);
       token.mustEscape = flags[0] == '=';
-      token.buffer = flags[0] == '=' || (flags.length > 1 ? flags[1] == '=' : false);
+      token.buffer =
+          flags[0] == '=' || (flags.length > 1 ? flags[1] == '=' : false);
 
       // p #[!=    abc] hey
       //     ^              original colno
@@ -1115,12 +1067,10 @@ class Lexer {
           break;
         }
       } else {
-        if (
-          whitespaceRe.hasMatch(str[i]) ||
-          str[i] == '!' ||
-          str[i] == '=' ||
-          str[i] == ','
-        ) {
+        if (whitespaceRe.hasMatch(str[i]) ||
+            str[i] == '!' ||
+            str[i] == '=' ||
+            str[i] == ',') {
           break;
         }
       }
@@ -1200,20 +1150,19 @@ class Lexer {
       col++;
       i++;
       if (str[i] != '=') {
-        error(
-          'INVALID_KEY_CHARACTER',
-          'Unexpected character ${str[i]} expected `=`'
-        );
+        error('INVALID_KEY_CHARACTER',
+            'Unexpected character ${str[i]} expected `=`');
       }
     }
 
     if (str[i] != '=') {
       // check for anti-pattern `div("foo"bar)`
-      if (i == 0 && str.isNotEmpty && !whitespaceRe.hasMatch(str[0]) && str[0] != ',') {
-        error(
-          'INVALID_KEY_CHARACTER',
-          'Unexpected character ' + str[0] + ' expected `=`'
-        );
+      if (i == 0 &&
+          str.isNotEmpty &&
+          !whitespaceRe.hasMatch(str[0]) &&
+          str[0] != ',') {
+        error('INVALID_KEY_CHARACTER',
+            'Unexpected character ' + str[0] + ' expected `=`');
       } else {
         return _AttributeValueResponse(remainingSource: str);
       }
@@ -1252,11 +1201,9 @@ class Lexer {
               final isQuote = quoteRe.hasMatch(str[x]);
               final isColon = str[x] == ':';
               final isSpreadOperator = x < str.length - 3 &&
-                str[x] + str[x + 1] + str[x + 2] == '...';
-              if (
-                (isNotPunctuator || isQuote || isColon || isSpreadOperator) &&
-                assertExpression(val, true)
-              ) {
+                  str[x] + str[x + 1] + str[x + 2] == '...';
+              if ((isNotPunctuator || isQuote || isColon || isSpreadOperator) &&
+                  assertExpression(val, true)) {
                 done = true;
               }
               break;
@@ -1355,10 +1302,8 @@ class Lexer {
       consume(indents + 1);
 
       if (input.isNotEmpty && (' ' == input[0] || '\t' == input[0])) {
-        error(
-          'INVALID_INDENTATION',
-          'Invalid indentation, you can use tabs or spaces but not both'
-        );
+        error('INVALID_INDENTATION',
+            'Invalid indentation, you can use tabs or spaces but not both');
       }
 
       // blank line
@@ -1373,10 +1318,8 @@ class Lexer {
         var outdent_count = 0;
         while (indentStack[0] > indents) {
           if (indentStack[1] < indents) {
-            error(
-              'INCONSISTENT_INDENTATION',
-              'Inconsistent indentation. Expecting either ${indentStack[1]} or ${indentStack[0]} spaces/tabs.'
-            );
+            error('INCONSISTENT_INDENTATION',
+                'Inconsistent indentation. Expecting either ${indentStack[1]} or ${indentStack[0]} spaces/tabs.');
           }
           outdent_count++;
           indentStack.removeAt(0);
@@ -1447,16 +1390,15 @@ class Lexer {
         tokenValues.removeLast();
       }
 
-      tokenValues.asMap().forEach(
-        (i, token) {
-          var tok;
-          incrementLine(1);
-          if (i != 0) tok = this.tok('newline');
-          if (token_indent[i] != null && token_indent[i]) incrementColumn(indents);
-          if (tok != null && token.isNotEmpty) tokens.add(tokEnd(tok));
-          addText('text', token);
-        }
-      );
+      tokenValues.asMap().forEach((i, token) {
+        var tok;
+        incrementLine(1);
+        if (i != 0) tok = this.tok('newline');
+        if (token_indent[i] != null && token_indent[i])
+          incrementColumn(indents);
+        if (tok != null && token.isNotEmpty) tokens.add(tokEnd(tok));
+        addText('text', token);
+      });
       tokens.add(tokEnd(tok('end-pipeless-text')));
       return true;
     }
@@ -1485,53 +1427,48 @@ class Lexer {
   }
 
   bool fail() {
-    error(
-      'UNEXPECTED_TEXT',
-      'unexpected text "${input.substr(0, 5)}"'
-    );
+    error('UNEXPECTED_TEXT', 'unexpected text "${input.substr(0, 5)}"');
     return false;
   }
 
   bool _advance() {
-    return (
-      blank() ||
-      eos() ||
-      endInterpolation() ||
-      yield_() ||
-      docType() ||
-      interpolation() ||
-      case_() ||
-      when() ||
-      default_() ||
-      extends_() ||
-      append() ||
-      prepend() ||
-      block() ||
-      mixinBlock() ||
-      include() ||
-      mixin_() ||
-      call() ||
-      conditional() ||
-      eachOf() ||
-      each() ||
-      while_() ||
-      tag() ||
-      filter() ||
-      blockCode() ||
-      code() ||
-      id() ||
-      dot() ||
-      className() ||
-      attrs() ||
-      attributesBlock() ||
-      indent() ||
-      text() ||
-      textHtml() ||
-      comment() ||
-      slash() ||
-      colon() ||
-      fail()
-    );
+    return (blank() ||
+        eos() ||
+        endInterpolation() ||
+        yield_() ||
+        docType() ||
+        interpolation() ||
+        case_() ||
+        when() ||
+        default_() ||
+        extends_() ||
+        append() ||
+        prepend() ||
+        block() ||
+        mixinBlock() ||
+        include() ||
+        mixin_() ||
+        call() ||
+        conditional() ||
+        eachOf() ||
+        each() ||
+        while_() ||
+        tag() ||
+        filter() ||
+        blockCode() ||
+        code() ||
+        id() ||
+        dot() ||
+        className() ||
+        attrs() ||
+        attributesBlock() ||
+        indent() ||
+        text() ||
+        textHtml() ||
+        comment() ||
+        slash() ||
+        colon() ||
+        fail());
   }
 
   List<Token> getTokens() {
@@ -1633,11 +1570,8 @@ class TokenLoc {
   String filename;
   TokenLocPoint end;
 
-  Map<String, dynamic> toJSON() => {
-    'filename': filename,
-    'start': start.toJSON(),
-    'end': end?.toJSON()
-  };
+  Map<String, dynamic> toJSON() =>
+      {'filename': filename, 'start': start.toJSON(), 'end': end?.toJSON()};
 }
 
 class TokenLocPoint {
@@ -1655,9 +1589,9 @@ class TokenLocPoint {
   int column;
 
   Map<String, int> toJSON() => {
-    'line': line,
-    'column': column,
-  };
+        'line': line,
+        'column': column,
+      };
 }
 
 class _AttributeValueResponse {

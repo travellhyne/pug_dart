@@ -13,7 +13,8 @@ class _SnapshotMatcher extends Matcher {
   @override
   bool matches(dynamic item, Map matchState) {
     final snapshotDirectory = Directory(_entity.parent.path + '/__snapshots__');
-    var snapshotFile = File(snapshotDirectory.path + '/${_entity.uri.pathSegments.last}.snap');
+    var snapshotFile =
+        File(snapshotDirectory.path + '/${_entity.uri.pathSegments.last}.snap');
     var encoder = JsonEncoder.withIndent('  ');
     var itemJSON = encoder.convert(item);
 

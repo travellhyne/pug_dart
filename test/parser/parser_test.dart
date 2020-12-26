@@ -15,10 +15,10 @@ void main() {
       if (RegExp(r'\.json$').hasMatch(entity.path)) {
         test(entity.path, () {
           var tokens = File(entity.path)
-            .readAsStringSync()
-            .split('\n')
-            .map((e) => Token.fromJSON(decoder.convert(e)))
-            .toList();
+              .readAsStringSync()
+              .split('\n')
+              .map((e) => Token.fromJSON(decoder.convert(e)))
+              .toList();
           var ast = parse(tokens, ParserOptions(filename: entity.path));
           expect(ast.toJSON(), matchSnapshot(entity));
         });

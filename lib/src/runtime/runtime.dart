@@ -16,7 +16,10 @@ String pugClassesArray(List val, [List<bool> escaping]) {
     className = pugClasses(val[i]);
     if (className.isEmpty) continue;
 
-    if (escapeEnabled && i < escaping.length && escaping[i] != null && escaping[i]) {
+    if (escapeEnabled &&
+        i < escaping.length &&
+        escaping[i] != null &&
+        escaping[i]) {
       className = pugEscape(className);
     }
 
@@ -65,11 +68,9 @@ String pugStyle(dynamic val) {
 String pugAttr(String key, [dynamic val, bool escaped, bool terse]) {
   escaped ??= false;
   terse ??= false;
-  if (
-    val == null ||
-    (val is bool && val == false) ||
-    (val is String && val.isEmpty && (key == 'class' || key == 'style'))
-  ) {
+  if (val == null ||
+      (val is bool && val == false) ||
+      (val is String && val.isEmpty && (key == 'class' || key == 'style'))) {
     return '';
   }
 
@@ -95,7 +96,7 @@ String pugAttr(String key, [dynamic val, bool escaped, bool terse]) {
       return ' $key=\'${val.replaceAll(RegExp(r"\'"), '&#39;')}\'';
     }
   }
-  
+
   if (escaped) val = pugEscape(val);
 
   return ' $key="$val"';
@@ -110,7 +111,7 @@ String pugAttrs(Map<String, dynamic> obj, [bool terse]) {
       attrs = pugAttr(key, value, false, terse) + attrs;
       return;
     }
-    
+
     if (key == 'style') {
       value = pugStyle(value);
     }
@@ -131,7 +132,7 @@ dynamic pugEscape(dynamic html_) {
   var lastIndex = 0;
   String escape;
   for (; i < html.length; i++) {
-    switch(html.codeUnitAt(i)) {
+    switch (html.codeUnitAt(i)) {
       case 34:
         escape = '&quot;';
         break;
@@ -185,17 +186,17 @@ void pugRethrow(dynamic err, [String filename, int lineno, String str]) {
   var end = min(lines.length, lineno + maxContext);
 
   var context = lines
-    .sublist(start, end)
-    .asMap()
-    .entries
-    .map((e) {
-      var idx = e.key;
-      var line = e.value;
-      var curr = idx + start + 1;
-      return '${(curr == lineno ? '  > ' : '    ')}$curr| $line';
-    })
-    .toList()
-    .join('\n');
+      .sublist(start, end)
+      .asMap()
+      .entries
+      .map((e) {
+        var idx = e.key;
+        var line = e.value;
+        var curr = idx + start + 1;
+        return '${(curr == lineno ? '  > ' : '    ')}$curr| $line';
+      })
+      .toList()
+      .join('\n');
 
   e.path = filename;
   e.message = '${filename ?? 'Pug'}:$lineno\n$context\n\n${e.message}';
@@ -223,9 +224,11 @@ Map<String, dynamic> pugMerge(dynamic a, [Map<String, dynamic> b]) {
       ];
     } else if (key == 'style') {
       var valA = pugStyle(a[key]);
-      valA = valA.isNotEmpty && valA[valA.length - 1] != ';' ? valA + ';' : valA;
+      valA =
+          valA.isNotEmpty && valA[valA.length - 1] != ';' ? valA + ';' : valA;
       var valB = pugStyle(b[key]);
-      valB = valB.isNotEmpty && valB[valB.length - 1] != ';' ? valB + ';' : valB;
+      valB =
+          valB.isNotEmpty && valB[valB.length - 1] != ';' ? valB + ';' : valB;
       a[key] = valA + valB;
     } else {
       a[key] = b[key];

@@ -44,23 +44,24 @@ PugException makeError({
     var start = max(line - 3, 0);
     var end = min(lines.length, line + 3);
     var context = lines
-      .sublist(start, end)
-      .asMap()
-      .entries
-      .map((e) {
-        var text = e.value;
-        var idx = e.key;
-        var curr = idx + start + 1;
-        var preamble = '${curr == line ? '  > ' : '    '}$curr| ';
-        var out = '$preamble$text';
-        if (curr == line && column > 0) {
-          out = '$out\n';
-          out = '$out${Iterable.generate(preamble.length + column).join('-')}^';
-        }
-        return out;
-      })
-      .toList()
-      .join('\n');
+        .sublist(start, end)
+        .asMap()
+        .entries
+        .map((e) {
+          var text = e.value;
+          var idx = e.key;
+          var curr = idx + start + 1;
+          var preamble = '${curr == line ? '  > ' : '    '}$curr| ';
+          var out = '$preamble$text';
+          if (curr == line && column > 0) {
+            out = '$out\n';
+            out =
+                '$out${Iterable.generate(preamble.length + column).join('-')}^';
+          }
+          return out;
+        })
+        .toList()
+        .join('\n');
     fullMessage = '${filename ?? 'Pug'}:$location\n$context\n\n$message';
   } else {
     fullMessage = '${filename ?? 'Pug'}:$location\n\n$message';
