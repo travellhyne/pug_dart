@@ -1,4 +1,11 @@
 class Node {
+  Node({
+    this.nodes,
+    this.line,
+    this.column,
+    this.filename,
+  });
+
   String type;
   List<Node> nodes;
   int line;
@@ -21,6 +28,20 @@ class Node {
 }
 
 class Block extends Node {
+  Block({
+    this.mode,
+    this.name,
+    List<Node> nodes,
+    int line,
+    int column,
+    String filename,
+  }) : super(
+          nodes: nodes,
+          line: line,
+          column: column,
+          filename: filename,
+        );
+
   @override
   String type = 'Block';
   String mode;
@@ -37,6 +58,20 @@ class Block extends Node {
 }
 
 class Text extends Node {
+  Text({
+    this.val,
+    this.isHtml,
+    List<Node> nodes,
+    int line,
+    int column,
+    String filename,
+  }) : super(
+          nodes: nodes,
+          line: line,
+          column: column,
+          filename: filename,
+        );
+
   @override
   final String type = 'Text';
   String val;
@@ -53,6 +88,23 @@ class Text extends Node {
 }
 
 class Code extends Node {
+  Code({
+    this.val,
+    this.buffer,
+    this.mustEscape,
+    this.isInline,
+    this.block,
+    List<Node> nodes,
+    int line,
+    int column,
+    String filename,
+  }) : super(
+          nodes: nodes,
+          line: line,
+          column: column,
+          filename: filename,
+        );
+
   @override
   final String type = 'Code';
   String val;
@@ -75,6 +127,20 @@ class Code extends Node {
 }
 
 class Case extends Node {
+  Case({
+    this.expr,
+    this.block,
+    List<Node> nodes,
+    int line,
+    int column,
+    String filename,
+  }) : super(
+          nodes: nodes,
+          line: line,
+          column: column,
+          filename: filename,
+        );
+
   @override
   final String type = 'Case';
   dynamic expr;
@@ -91,6 +157,21 @@ class Case extends Node {
 }
 
 class When extends Node {
+  When({
+    this.expr,
+    this.block,
+    this.debug,
+    List<Node> nodes,
+    int line,
+    int column,
+    String filename,
+  }) : super(
+          nodes: nodes,
+          line: line,
+          column: column,
+          filename: filename,
+        );
+
   @override
   final String type = 'When';
   dynamic expr;
@@ -109,6 +190,21 @@ class When extends Node {
 }
 
 class Conditional extends Node {
+  Conditional({
+    this.alternate,
+    this.test,
+    this.consequent,
+    List<Node> nodes,
+    int line,
+    int column,
+    String filename,
+  }) : super(
+          nodes: nodes,
+          line: line,
+          column: column,
+          filename: filename,
+        );
+
   @override
   final String type = 'Conditional';
   dynamic test;
@@ -127,6 +223,20 @@ class Conditional extends Node {
 }
 
 class While extends Node {
+  While({
+    this.test,
+    this.block,
+    List<Node> nodes,
+    int line,
+    int column,
+    String filename,
+  }) : super(
+          nodes: nodes,
+          line: line,
+          column: column,
+          filename: filename,
+        );
+
   @override
   final String type = 'While';
   dynamic test;
@@ -143,6 +253,20 @@ class While extends Node {
 }
 
 class Comment extends Node {
+  Comment({
+    this.buffer,
+    this.val,
+    List<Node> nodes,
+    int line,
+    int column,
+    String filename,
+  }) : super(
+          nodes: nodes,
+          line: line,
+          column: column,
+          filename: filename,
+        );
+
   @override
   final String type = 'Comment';
   dynamic val;
@@ -159,6 +283,23 @@ class Comment extends Node {
 }
 
 class BlockComment extends Comment {
+  BlockComment({
+    this.block,
+    bool buffer,
+    dynamic val,
+    List<Node> nodes,
+    int line,
+    int column,
+    String filename,
+  }) : super(
+          nodes: nodes,
+          line: line,
+          column: column,
+          filename: filename,
+          buffer: buffer,
+          val: val,
+        );
+
   @override
   final String type = 'BlockComment';
   Node block;
@@ -173,6 +314,19 @@ class BlockComment extends Comment {
 }
 
 class Doctype extends Node {
+  Doctype({
+    this.val,
+    List<Node> nodes,
+    int line,
+    int column,
+    String filename,
+  }) : super(
+          nodes: nodes,
+          line: line,
+          column: column,
+          filename: filename,
+        );
+
   @override
   final String type = 'Doctype';
   dynamic val;
@@ -187,6 +341,20 @@ class Doctype extends Node {
 }
 
 class IncludeFilter extends Node {
+  IncludeFilter({
+    this.name,
+    this.attrs,
+    List<Node> nodes,
+    int line,
+    int column,
+    String filename,
+  }) : super(
+          nodes: nodes,
+          line: line,
+          column: column,
+          filename: filename,
+        );
+
   @override
   final String type = 'IncludeFilter';
   dynamic name;
@@ -202,6 +370,21 @@ class IncludeFilter extends Node {
 }
 
 class Filter extends Node {
+  Filter({
+    this.name,
+    this.block,
+    this.attrs,
+    List<Node> nodes,
+    int line,
+    int column,
+    String filename,
+  }) : super(
+          nodes: nodes,
+          line: line,
+          column: column,
+          filename: filename,
+        );
+
   @override
   final String type = 'Filter';
   dynamic name;
@@ -240,6 +423,21 @@ class Each extends Node {
 }
 
 class EachOf extends Node {
+  EachOf({
+    this.obj,
+    this.val,
+    this.block,
+    List<Node> nodes,
+    int line,
+    int column,
+    String filename,
+  }) : super(
+          nodes: nodes,
+          line: line,
+          column: column,
+          filename: filename,
+        );
+
   @override
   final String type = 'EachOf';
   String obj;
@@ -258,6 +456,19 @@ class EachOf extends Node {
 }
 
 class Extends extends Node {
+  Extends({
+    this.file,
+    List<Node> nodes,
+    int line,
+    int column,
+    String filename,
+  }) : super(
+          nodes: nodes,
+          line: line,
+          column: column,
+          filename: filename,
+        );
+
   @override
   final String type = 'Extends';
   FileReference file;
@@ -272,9 +483,24 @@ class Extends extends Node {
 }
 
 class FileReference extends Node {
+  FileReference({
+    this.path,
+    this.ast,
+    List<Node> nodes,
+    int line,
+    int column,
+    String filename,
+  }) : super(
+          nodes: nodes,
+          line: line,
+          column: column,
+          filename: filename,
+        );
+
   @override
   final String type = 'FileReference';
   String path;
+  Node ast;
 
   @override
   Map<String, dynamic> toMap() {
@@ -296,6 +522,21 @@ class YieldBlock extends Node {
 }
 
 class Include extends Node {
+  Include({
+    this.file,
+    this.block,
+    this.filters,
+    List<Node> nodes,
+    int line,
+    int column,
+    String filename,
+  }) : super(
+          nodes: nodes,
+          line: line,
+          column: column,
+          filename: filename,
+        );
+
   @override
   String type = 'Include';
   FileReference file;
@@ -314,6 +555,26 @@ class Include extends Node {
 }
 
 class Tag extends Node {
+  Tag({
+    this.name,
+    this.expr,
+    this.selfClosing,
+    this.block,
+    this.attrs,
+    this.attributeBlocks,
+    this.isInline,
+    this.textOnly,
+    List<Node> nodes,
+    int line,
+    int column,
+    String filename,
+  }) : super(
+          nodes: nodes,
+          line: line,
+          column: column,
+          filename: filename,
+        );
+
   @override
   String type = 'Tag';
   String name;
@@ -341,6 +602,37 @@ class Tag extends Node {
 }
 
 class Mixin extends Tag {
+  Mixin({
+    this.args,
+    this.call,
+    this.code,
+    String name,
+    dynamic expr,
+    bool selfClosing,
+    Node block,
+    List<Node> attrs,
+    List<Node> attributeBlocks,
+    bool isInline,
+    bool textOnly,
+    List<Node> nodes,
+    int line,
+    int column,
+    String filename,
+  }) : super(
+          nodes: nodes,
+          line: line,
+          column: column,
+          filename: filename,
+          name: name,
+          expr: expr,
+          selfClosing: selfClosing,
+          block: block,
+          attrs: attrs,
+          attributeBlocks: attributeBlocks,
+          isInline: isInline,
+          textOnly: textOnly,
+        );
+
   @override
   final String type = 'Mixin';
   String args;
@@ -361,6 +653,21 @@ class Mixin extends Tag {
 }
 
 class Attribute extends Node {
+  Attribute({
+    this.name,
+    this.val,
+    this.mustEscape,
+    List<Node> nodes,
+    int line,
+    int column,
+    String filename,
+  }) : super(
+          nodes: nodes,
+          line: line,
+          column: column,
+          filename: filename,
+        );
+
   String name;
   dynamic val;
   bool mustEscape;
