@@ -1394,8 +1394,9 @@ class Lexer {
         var tok;
         incrementLine(1);
         if (i != 0) tok = this.tok('newline');
-        if (token_indent[i] != null && token_indent[i])
+        if (token_indent[i] != null && token_indent[i]) {
           incrementColumn(indents);
+        }
         if (tok != null && token.isNotEmpty) tokens.add(tokEnd(tok));
         addText('text', token);
       });

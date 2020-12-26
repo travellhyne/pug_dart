@@ -13,7 +13,7 @@ void main() {
       if (RegExp(r'\.pug$').hasMatch(entity.path)) {
         test(entity.path, () {
           var res = lex(File(entity.path).readAsStringSync(),
-                  LexerOptions(filename: entity.path))
+                  LexerOptions(filename: entity.uri.pathSegments.last))
               .map((e) => e.toJSON())
               .toList();
           expect(res, matchSnapshot(entity));

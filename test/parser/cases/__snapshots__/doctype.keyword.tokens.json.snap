@@ -1,1 +1,1 @@
-{"type":"Block","nodes":[{"type":"Doctype","line":1,"column":1,"filename":"/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/doctype.keyword.tokens.json","val":"html"}],"line":0,"filename":"/mnt/c/Users/neilj/Workspace/pug_dart/test/parser/cases/doctype.keyword.tokens.json"}
+{"type":"Block","nodes":[{"type":"Doctype","line":1,"column":1,"filename":"doctype.keyword.tokens.json","val":"html"}],"line":0,"filename":"doctype.keyword.tokens.json"}

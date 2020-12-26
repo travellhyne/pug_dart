@@ -3,7 +3,20 @@ import 'dart:io';
 
 import 'package:test/test.dart';
 
-Matcher matchSnapshot(FileSystemEntity entity) => _SnapshotMatcher(entity);
+Matcher matchSnapshot(FileSystemEntity entity) {
+  final snapshotDirectory = Directory(entity.parent.path + '/__snapshots__');
+  var snapshotFile =
+      File(snapshotDirectory.path + '/${entity.uri.pathSegments.last}.snap');
+
+  if (!snapshotFile.existsSync()) {
+    return _SnapshotMatcher(entity);
+  } else {
+    var decoder = JsonDecoder();
+    var contents = snapshotFile.readAsStringSync();
+    var contentsJSON = decoder.convert(contents);
+    return equals(contentsJSON);
+  }
+}
 
 class _SnapshotMatcher extends Matcher {
   const _SnapshotMatcher(this._entity);
@@ -18,14 +31,10 @@ class _SnapshotMatcher extends Matcher {
     var encoder = JsonEncoder();
     var itemJSON = encoder.convert(item);
 
-    if (!snapshotFile.existsSync()) {
-      snapshotFile.createSync(recursive: true);
-      snapshotFile.writeAsStringSync(itemJSON);
-      return true;
-    }
-
-    final contentsToCompare = snapshotFile.readAsStringSync();
-    return contentsToCompare == itemJSON;
+    assert(!snapshotFile.existsSync());
+    snapshotFile.createSync(recursive: true);
+    snapshotFile.writeAsStringSync(itemJSON);
+    return true;
   }
 
   @override

@@ -19,7 +19,8 @@ void main() {
               .split('\n')
               .map((e) => Token.fromJSON(decoder.convert(e)))
               .toList();
-          var ast = parse(tokens, ParserOptions(filename: entity.path));
+          var ast = parse(
+              tokens, ParserOptions(filename: entity.uri.pathSegments.last));
           expect(ast.toJSON(), matchSnapshot(entity));
         });
       }
