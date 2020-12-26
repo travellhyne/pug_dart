@@ -15,7 +15,7 @@ class _SnapshotMatcher extends Matcher {
     final snapshotDirectory = Directory(_entity.parent.path + '/__snapshots__');
     var snapshotFile =
         File(snapshotDirectory.path + '/${_entity.uri.pathSegments.last}.snap');
-    var encoder = JsonEncoder.withIndent('  ');
+    var encoder = JsonEncoder();
     var itemJSON = encoder.convert(item);
 
     if (!snapshotFile.existsSync()) {
