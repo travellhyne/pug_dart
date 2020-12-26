@@ -1,4 +1,3 @@
-
 extension Substr on String {
   String substr(int startIndex, [int len]) {
     startIndex ??= 0;

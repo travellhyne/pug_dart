@@ -23,7 +23,7 @@ enum TokenTypes {
 
 extension on TokenTypes {
   String get value {
-    switch(this) {
+    switch (this) {
       case TokenTypes.doubleQuote:
         return '"';
       case TokenTypes.singleQuote:
@@ -63,7 +63,8 @@ _State parse(String src, [_State state, ParserOptions options]) {
   return state;
 }
 
-ParserResult parseUntil(String src, Pattern delimiter, [ParserOptions options]) {
+ParserResult parseUntil(String src, Pattern delimiter,
+    [ParserOptions options]) {
   options = options ?? ParserOptions();
 
   var start = options.start ?? 0;
@@ -71,7 +72,8 @@ ParserResult parseUntil(String src, Pattern delimiter, [ParserOptions options]) 
   var state = defaultState();
 
   while (index < src.length) {
-    if ((options.ignoreNesting) || !state.isNesting(options) && matches(src, delimiter, index)) {
+    if ((options.ignoreNesting) ||
+        !state.isNesting(options) && matches(src, delimiter, index)) {
       var end = index;
 
       return ParserResult(
@@ -93,7 +95,8 @@ ParserResult parseUntil(String src, Pattern delimiter, [ParserOptions options]) 
     index += 1;
   }
 
-  var err = ParserException('The end of the string was reached with no closing bracket found.')
+  var err = ParserException(
+      'The end of the string was reached with no closing bracket found.')
     ..code = 'CHARACTER_PARSER:END_OF_STRING_REACHED'
     ..index = index;
   throw err;
@@ -220,30 +223,30 @@ bool isPunctuator(String c) {
   final code = c.codeUnitAt(0);
 
   switch (code) {
-    case 46:   // . dot
-    case 40:   // ( open bracket
-    case 41:   // ) close bracket
-    case 59:   // ; semicolon
-    case 44:   // , comma
-    case 123:  // { open curly brace
-    case 125:  // } close curly brace
-    case 91:   // [
-    case 93:   // ]
-    case 58:   // :
-    case 63:   // ?
-    case 126:  // ~
-    case 37:   // %
-    case 38:   // &
-    case 42:   // *:
-    case 43:   // +
-    case 45:   // -
-    case 47:   // /
-    case 60:   // <
-    case 62:   // >
-    case 94:   // ^
-    case 124:  // |
-    case 33:   // !
-    case 61:   // =
+    case 46: // . dot
+    case 40: // ( open bracket
+    case 41: // ) close bracket
+    case 59: // ; semicolon
+    case 44: // , comma
+    case 123: // { open curly brace
+    case 125: // } close curly brace
+    case 91: // [
+    case 93: // ]
+    case 58: // :
+    case 63: // ?
+    case 126: // ~
+    case 37: // %
+    case 38: // &
+    case 42: // *:
+    case 43: // +
+    case 45: // -
+    case 47: // /
+    case 60: // <
+    case 62: // >
+    case 94: // ^
+    case 124: // |
+    case 33: // !
+    case 61: // =
       return true;
     default:
       return false;
@@ -285,21 +288,16 @@ class _State {
 
   String get current => stack.isNotEmpty ? stack.last : null;
 
-  bool get isString => (
-    current == TokenTypes.singleQuote.value ||
-    current == TokenTypes.doubleQuote.value
-  );
+  bool get isString => (current == TokenTypes.singleQuote.value ||
+      current == TokenTypes.doubleQuote.value);
 
-  bool get isComment => (
-    current == TokenTypes.lineComment.value || current == TokenTypes.blockComment.value
-  );
+  bool get isComment => (current == TokenTypes.lineComment.value ||
+      current == TokenTypes.blockComment.value);
 
   bool isNesting([ParserOptions options]) {
-    if (
-      (options?.ignoreLineComment ?? false) &&
-      stack.length == 1 &&
-      stack[0] == TokenTypes.lineComment.value
-    ) {
+    if ((options?.ignoreLineComment ?? false) &&
+        stack.length == 1 &&
+        stack[0] == TokenTypes.lineComment.value) {
       return false;
     }
 
